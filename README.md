@@ -17,6 +17,7 @@ My dotfile organization repository! Here you can find all the wonders of my magi
 - Icon Theme: Papirus (Dark)
 - App Launcher: dmenu with standard Arcolinux config
 - Firefox start: Tabliss
+- Picom: [Jonaburg's fork](https://github.com/jonaburg/picom)
 
 ## Final note
 I use yadm to manage my dotfiles, and it's great!

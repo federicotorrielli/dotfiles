@@ -181,7 +181,7 @@ hc attr theme.normal.color '#454545'
 hc attr theme.urgent.color orange
 hc attr theme.inner_width 1
 hc attr theme.inner_color black
-hc attr theme.border_width 4
+hc attr theme.border_width 2
 hc attr theme.floating.border_width 2
 hc attr theme.floating.outer_width 2
 hc attr theme.floating.outer_color black
@@ -302,7 +302,8 @@ hc pad 1 30
 
 #Autostart applications
 pkill -u $USER '^picom$'
-picom  --config $HOME/.config/herbstluftwm/picom.conf &
+pkill -u $USER 'conky'
+picom  --config $HOME/.config/picom/picom.conf &
 /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 /usr/lib/xfce4/notifyd/xfce4-notifyd &
 
@@ -314,7 +315,7 @@ sxhkd -c ~/.config/herbstluftwm/sxhkd/sxhkdrc &
 
 dex $HOME/.config/autostart/arcolinux-welcome-app.desktop
 #feh --bg-scale ~/.config/herbstluftwm/wall.png &
-feh --bg-fill /home/evilscript/Pictures/maelstrom.jpg &
+feh --bg-fill /home/evilscript/Pictures/rocket.png &
 #feh --bg-scale /usr/share/backgrounds/arcolinux/abstract-warm-heart-4560x2160.jpg
 conky -c $HOME/.config/herbstluftwm/system-overview &
 run variety &

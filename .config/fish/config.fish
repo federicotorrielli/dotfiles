@@ -87,6 +87,9 @@ alias tofish="sudo chsh $USER -s /usr/bin/fish && echo 'Now log out.'"
 #quickly kill conkies
 alias kc='killall conky'
 
+#pinta as paint
+alias paint='pinta'
+
 #hardware info --short
 alias hw="hwinfo --short"
 

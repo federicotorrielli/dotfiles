@@ -294,16 +294,18 @@ hc pad 1 30
 #second polybar at bottom
 #hc pad 1 30 0 30 0
 
-#launching polybar
-~/.config/polybar/launch.sh
-
 #change your keyboard if you need it
 #setxkbmap -layout be
+
+#launching polybar
+~/.config/polybar/launch.sh
 
 #Autostart applications
 pkill -u $USER '^picom$'
 pkill -u $USER 'conky'
-picom  --config $HOME/.config/picom/picom.conf &
+#pulseaudio --start
+# picom --config $HOME/.config/picom/picom.conf &
+picom --config $HOME/.config/herbstluftwm/picom.conf &
 /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 /usr/lib/xfce4/notifyd/xfce4-notifyd &
 
@@ -330,6 +332,7 @@ run volumeicon &
 # vivaldi-stable &
 firefox &
 st &
+# sudo update-mirror (DA FARE UNA VOLTA AL MESE!)
 # jetbrains-toolbox &
 # thunar &
 # dropbox &

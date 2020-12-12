@@ -522,11 +522,11 @@ scroll-down = bspwm-deskprev
 
 [bar/mainbar-herbstluftwm]
 monitor = ${env:MONITOR}
-;monitor-fallback = HDMI1
+monitor-fallback = HDMI1
 width = 100%
 height = 30
 ;offset-x = 1%
-offset-y = 0.6%
+;offset-y = 0.6%
 radius = 0.0
 fixed-center = true
 bottom = false

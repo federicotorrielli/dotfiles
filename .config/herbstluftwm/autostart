@@ -317,7 +317,7 @@ sxhkd -c ~/.config/herbstluftwm/sxhkd/sxhkdrc &
 
 dex $HOME/.config/autostart/arcolinux-welcome-app.desktop
 #feh --bg-scale ~/.config/herbstluftwm/wall.png &
-feh --bg-fill /home/evilscript/Pictures/rocket.png &
+feh --bg-fill /home/evilscript/Pictures/nord-arch.png &
 #feh --bg-scale /usr/share/backgrounds/arcolinux/abstract-warm-heart-4560x2160.jpg
 conky -c $HOME/.config/herbstluftwm/system-overview &
 run variety &
@@ -331,7 +331,6 @@ run volumeicon &
 # caffeine &
 # vivaldi-stable &
 firefox &
-st &
 # sudo update-mirror (DA FARE UNA VOLTA AL MESE!)
 # jetbrains-toolbox &
 # thunar &

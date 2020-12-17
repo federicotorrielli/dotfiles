@@ -159,9 +159,15 @@ alias downgrada="sudo downgrade --ala-url https://bike.seedhost.eu/arcolinux/"
 #systeminfo
 alias probe="sudo -E hw-probe -all -upload"
 
+#cmatrix
+alias cmatrix="cmatrix -a"
+
 #shutdown or reboot
 alias ssn="sudo shutdown now"
 alias sr="sudo reboot"
+
+# We add python3 pip path here
+set PATH /home/evilscript/.local/bin $PATH
 
 #Let's start the party
 bfetch | cat.sh

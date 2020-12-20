@@ -121,14 +121,14 @@ alias yta-wav="youtube-dl --extract-audio --audio-format wav "
 
 alias ytv-best="youtube-dl -f bestvideo+bestaudio "
 
-#Recent Installed Packages
+#recent Installed Packages
 alias rip="expac --timefmt='%Y-%m-%d %T' '%l\t%n %v' | sort | tail -200 | nl"
 alias riplong="expac --timefmt='%Y-%m-%d %T' '%l\t%n %v' | sort | tail -3000 | nl"
 
 #iso and version used to install ArcoLinux
 alias iso="cat /etc/dev-rel | awk -F '=' '/ISO/ {print $2}'"
 
-#Cleanup orphaned packages
+#cleanup orphaned packages
 alias cleanup='sudo pacman -Rns (pacman -Qtdq)'
 
 #get the error messages from journalctl
@@ -166,8 +166,14 @@ alias cmatrix="cmatrix -a"
 alias ssn="sudo shutdown now"
 alias sr="sudo reboot"
 
-# We add python3 pip path here
+#rsync instead of cp
+alias cp="rsync -vazP"
+
+#add python3 pip path here
 set PATH /home/evilscript/.local/bin $PATH
 
-#Let's start the party
+#start the ssh agent
+fish_ssh_agent
+
+#start the party
 bfetch | cat.sh

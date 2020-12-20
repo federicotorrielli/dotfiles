@@ -331,6 +331,7 @@ run volumeicon &
 # caffeine &
 # vivaldi-stable &
 firefox &
+protonmail-bridge --no-window &
 # sudo update-mirror (DA FARE UNA VOLTA AL MESE!)
 # jetbrains-toolbox &
 # thunar &

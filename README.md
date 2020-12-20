@@ -16,7 +16,7 @@ My dotfile organization repository! Here you can find all the wonders of my magi
 - Icon Theme: Papirus (Dark)
 - App Launcher: dmenu with standard Arcolinux config
 - Firefox start: [Bento](https://github.com/federicotorrielli/Bento) by [MiguelRAvila](https://github.com/MiguelRAvila)
-- Picom: [Jonaburg's fork](https://github.com/jonaburg/picom)
+- Picom: [ibhagwan's fork](https://aur.archlinux.org/packages/picom-ibhagwan-git/)
 
 ## Final note
 - I don't have the time to update my screenshots at every commit, sorry.

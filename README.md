@@ -1,7 +1,6 @@
 # EvilScript/dotfiles
 
-![Screenshot](https://i.imgur.com/OFk5558.png)
-![Screenshot2](https://i.imgur.com/dYtceq2.png)
+![Screenshot](https://i.imgur.com/mx1RIoC.png)
 
 ## About
 My dotfile organization repository! Here you can find all the wonders of my magical config for my daily driver.

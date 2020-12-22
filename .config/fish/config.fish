@@ -17,7 +17,11 @@ alias updte='sudo pacman -Syyu'
 alias updqte='sudo pacman -Syyu'
 alias upqll="yay -Syu --noconfirm"
 
-## Colorize the grep command output for ease of use (good for log files)##
+#7z instead of unzip
+alias unzip='7z x'
+alias 7zarchive='7z a archiv.7z -m1=lz4 -mx22'
+
+#colorize the grep command output for ease of use (good for log files)##
 alias grep='grep --color=auto'
 alias egrep='egrep --color=auto'
 alias fgrep='fgrep --color=auto'
@@ -50,7 +54,7 @@ alias userlist="cut -d: -f1 /etc/passwd"
 #merge new settings
 alias merge="xrdb -merge ~/.Xresources"
 
-# Aliases for software managment
+#aliases for software managment
 # pacman or pm
 alias pacman='sudo pacman --color auto'
 alias update='sudo pacman -Syyu'

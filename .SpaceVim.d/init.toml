@@ -31,8 +31,10 @@
 # Enable autocomplete layer
 [[layers]]
 name = 'autocomplete'
-auto_completion_return_key_behavior = "complete"
-auto_completion_tab_key_behavior = "cycle"
+autocomplete_method = "deoplete"
+snippet_engine = "ultisnips"
+auto_completion_return_key_behavior = "smart"
+auto_completion_tab_key_behavior = "smart"
 
 [[layers]]
 name = 'shell'
@@ -62,3 +64,12 @@ name = 'lang#markdown'
 
 [[layers]]
 name = 'lang#c'
+
+[[layers]]
+name = 'lang#toml'
+
+[[layers]]
+name = 'sudo'
+
+[[layers]]
+name = 'git'

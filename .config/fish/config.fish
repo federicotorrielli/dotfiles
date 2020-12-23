@@ -88,6 +88,9 @@ alias tobash="sudo chsh $USER -s /bin/bash && echo 'Now log out.'"
 alias tozsh="sudo chsh $USER -s /bin/zsh && echo 'Now log out.'"
 alias tofish="sudo chsh $USER -s /usr/bin/fish && echo 'Now log out.'"
 
+#nvim is better than vim
+alias vim='nvim'
+
 #quickly kill conkies
 alias kc='killall conky'
 

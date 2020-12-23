@@ -38,3 +38,27 @@ auto_completion_tab_key_behavior = "cycle"
 name = 'shell'
 default_position = 'top'
 default_height = 30
+
+[[layers]]
+name = 'lang#html'
+
+[[layers]]
+name = 'lang#javascript'
+auto_fix = true
+enable_flow_syntax = true
+
+[[layers]]
+name = 'lang#python'
+format_on_save = true
+python_file_head = [
+    '#!/usr/bin/env python',
+    '# -*- coding: utf-8 -*-',
+    '',
+    ''
+]
+
+[[layers]]
+name = 'lang#markdown'
+
+[[layers]]
+name = 'lang#c'

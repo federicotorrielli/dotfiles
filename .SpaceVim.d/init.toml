@@ -15,7 +15,7 @@
     colorscheme_bg = "dark"
     # Disable guicolors in basic mode, many terminal do not support 24bit
     # true colors
-    enable_guicolors = false
+    enable_guicolors = true
     # Disable statusline separator, if you want to use other value, please
     # install nerd fonts
     statusline_separator = "nil"
@@ -25,6 +25,7 @@
     enable_tabline_filetype_icon = false
     enable_statusline_mode = false
     statusline_unicode_symbols = false
+    default_indent = 4
     # Enable vim compatible mode, avoid changing origin vim key bindings
     vimcompatible = true
 
@@ -40,6 +41,9 @@ auto_completion_tab_key_behavior = "smart"
 name = 'shell'
 default_position = 'top'
 default_height = 30
+
+[[layers]]
+name = "colorscheme"
 
 [[layers]]
 name = 'lang#html'
@@ -67,9 +71,3 @@ name = 'lang#c'
 
 [[layers]]
 name = 'lang#toml'
-
-[[layers]]
-name = 'sudo'
-
-[[layers]]
-name = 'git'

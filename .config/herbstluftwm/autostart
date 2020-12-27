@@ -333,7 +333,6 @@ run volumeicon &
 # vivaldi-stable &
 firefox &
 protonmail-bridge --no-window &
-timeshift --check &
 # update-mirror (DA FARE UNA VOLTA AL MESE!)
 # jetbrains-toolbox &
 # thunar &

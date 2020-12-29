@@ -97,11 +97,6 @@ Here you can comment if you want your buttons to be showed up!
     display: none !important;
 }
 
-/* This one is the "shield" icon  */
-#tracking-protection-icon-container {
-    display: none !important;
-}
-
 /* This one removes the close button  */
 .tabbrowser-tab:not([pinned]) .tab-close-button {
     display: none !important;
@@ -203,12 +198,6 @@ U R L - B A R
     bottom: calc(
         (var(--urlbar-toolbar-height) - var(--urlbar-height)) / 2
     ) !important;
-}
-
-#urlbar-background {
-    background: transparent !important;
-    border: transparent !important;
-    animation: none !important;
 }
 
 #urlbar-input-container {

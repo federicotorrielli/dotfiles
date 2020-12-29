@@ -91,6 +91,12 @@ alias tofish="sudo chsh $USER -s /usr/bin/fish && echo 'Now log out.'"
 #nvim is better than vim
 alias vim='nvim'
 
+#tldr instead of man
+alias man='tldr'
+
+#fd instead of find
+alias find='fd'
+
 #quickly kill conkies
 alias kc='killall conky'
 
@@ -125,8 +131,10 @@ alias yta-mp3="youtube-dl --extract-audio --audio-format mp3 "
 alias yta-opus="youtube-dl --extract-audio --audio-format opus "
 alias yta-vorbis="youtube-dl --extract-audio --audio-format vorbis "
 alias yta-wav="youtube-dl --extract-audio --audio-format wav "
-
 alias ytv-best="youtube-dl -f bestvideo+bestaudio "
+
+#reddit client
+alias reddit='tuir'
 
 #recent Installed Packages
 alias rip="expac --timefmt='%Y-%m-%d %T' '%l\t%n %v' | sort | tail -200 | nl"

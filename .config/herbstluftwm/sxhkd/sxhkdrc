@@ -58,10 +58,6 @@ super + F12
 # SUPER + ... KEYS
 #################################################################
 
-#Atom
-super + e
-    atom
-
 #Browser
 super + w
     vivaldi-stable
@@ -96,9 +92,9 @@ super + v
 super + m
     pragha
 
-#Termite
+#st again
 super + Return
-    termite
+    st
 
 #Xkill
 super + Escape
@@ -117,12 +113,12 @@ super + Escape
 super + shift + Return
 	thunar
 
-#Keyboard dependent
+Keyboard dependent
 #File-Manager
 #super + shift + KP_Enter
 #	thunar
 
-#dmenu
+#rofi
 super + shift + d
 	$HOME/.config/rofi/launchers/colorful/launcher.sh
 
@@ -163,10 +159,6 @@ ctrl + alt + b
 ctrl + alt + c
      catfish
 
-#Chromium
-ctrl + alt + g
-    chromium -no-default-browser-check
-
 #Firefox
 ctrl + alt + f
      firefox
@@ -194,14 +186,6 @@ ctrl + alt + r
 #Spotify
 ctrl + alt + s
    spotify
-
-#Termite
-ctrl + alt + Return
-    termite
-
-#termite
-ctrl + alt + t
-    termite
 
 #Vivaldi
 ctrl + alt + v
@@ -306,7 +290,7 @@ Print
 
 #screeenshooter
 ctrl + Print
-     xfce4-screenshooter
+     flameshot gui
 
 #Gnome-Screenshot
 ctrl + shift + Print

@@ -149,6 +149,9 @@ alias cleanup='sudo pacman -Rns (pacman -Qtdq)'
 #get the error messages from journalctl
 alias jctl="journalctl -p 3 -xb"
 
+#roll a 6 dice
+alias roll="rolldice 6"
+
 #nano for important configuration files
 #know what you do in these files
 alias nlightdm="sudo nano /etc/lightdm/lightdm.conf"

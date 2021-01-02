@@ -566,7 +566,7 @@ font-3 = "Noto Sans Mono:size=10;0"
 
 modules-left = ewmh xwindow
 modules-center = networkspeedup networkspeeddown spotify1
-modules-right = pavolume memory2 cpu2 system-nvidia-smi xkeyboard date
+modules-right = pavolume temperature1 memory2 cpu2 system-nvidia-smi xkeyboard date
 
 tray-detached = false
 tray-offset-x = 0
@@ -1751,7 +1751,7 @@ thermal-zone = 0
 ; $ for i in /sys/class/hwmon/hwmon*/temp*_input; do echo "$(<$(dirname $i)/name): $(cat ${i%_*}_label 2>/dev/null || echo $(basename ${i%_*})) $(readlink -f $i)"; done
 ; to find path to desired file
 ; Default reverts to thermal zone setting
-hwmon-path = /sys/devices/platform/coretemp.0/hwmon/hwmon1/temp1_input
+hwmon-path = /sys/devices/pci0000:00/0000:00:18.3/hwmon/hwmon1/temp1_input
 
 warn-temperature = 70
 format = <ramp> <label>

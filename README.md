@@ -16,7 +16,6 @@ My dotfile organization repository! Here you can find all the wonders of my magi
 - Icon Theme: Papirus (Dark)
 - App Launcher: dmenu with standard Arcolinux config
 - Firefox start: [Bento](https://github.com/federicotorrielli/Bento) by [MiguelRAvila](https://github.com/MiguelRAvila)
-- Picom: [ibhagwan's fork](https://aur.archlinux.org/packages/picom-ibhagwan-git/)
 - Spotify: spicetify-cli with Dribbblish Nord-Dark theme
 
 ## Final note

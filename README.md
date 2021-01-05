@@ -10,7 +10,7 @@ My dotfile organization repository! Here you can find all the wonders of my magi
 - OS: ArcoLinuxD (But remember that dotfiles are distro-indipendent)
 - Status bar: Polybar
 - Notifications: either standard xfce4 notif or Dunst
-- Terminal: st-distrotube
+- Terminal: kitty and st
 - Shell: 🐟
 - File Manager: Thunar, standard, not modified
 - Icon Theme: Papirus (Dark)

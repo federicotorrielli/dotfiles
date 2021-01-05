@@ -32,6 +32,9 @@ alias df='df -h'
 #printer
 alias print='lp -d HP_ENVY_5530_series'
 
+#aliasing protege
+alias protege='/home/evilscript/Apps/Protege-5.5.0/run.sh'
+
 #pacman unlock
 alias unlock="sudo rm /var/lib/pacman/db.lck"
 alias rmpacmanlock="sudo rm /var/lib/pacman/db.lck"
@@ -194,4 +197,4 @@ set PATH /home/evilscript/.local/bin $PATH
 fish_ssh_agent
 
 #start the party
-bfetch | cat.sh
+#bfetch | cat.sh

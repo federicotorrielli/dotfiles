@@ -80,9 +80,9 @@ super + x
 #super + r
 #    rofi-theme-selector
 
-#Simple Terminal
+#terminal
 super + t
-    st
+    kitty
 
 #Pavucontrol
 super + v
@@ -92,9 +92,9 @@ super + v
 super + m
     pragha
 
-#st again
+#Terminal2
 super + Return
-    st
+    kitty
 
 #Xkill
 super + Escape

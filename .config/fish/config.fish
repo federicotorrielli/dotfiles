@@ -6,7 +6,6 @@ alias l='ls -l'
 alias la='ls -a'
 alias lla='ls -la'
 alias lt='ls --tree'
-alias unzip='7z x'
 
 #fix obvious typo's
 alias cd..='cd ..'

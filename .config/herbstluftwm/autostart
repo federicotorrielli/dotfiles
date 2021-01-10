@@ -162,6 +162,9 @@ hc attr theme.reset 1
 hc keybind $Mod-Shift-i spawn setxkbmap it
 hc keybind $Mod-Control-i spawn setxkbmap gb
 
+# Minimize the current window
+hc keybind $Mod-w set_attr clients.focus.minimized true
+
 # theme
 hc attr theme.tiling.reset 1
 hc attr theme.floating.reset 1

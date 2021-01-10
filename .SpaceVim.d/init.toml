@@ -74,3 +74,10 @@ name = 'lang#c'
 
 [[layers]]
 name = 'lang#toml'
+
+# Custom plugins
+
+[[custom_plugins]]
+    repo = "tpope/vim-fugitive"
+    merged = false
+

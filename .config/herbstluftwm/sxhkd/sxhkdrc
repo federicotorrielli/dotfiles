@@ -58,10 +58,6 @@ super + F12
 # SUPER + ... KEYS
 #################################################################
 
-#Browser
-super + w
-    vivaldi-stable
-
 #Conky-toggle
 super + c
     conky-toggle

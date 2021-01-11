@@ -33,6 +33,7 @@ alias print='lp -d HP_ENVY_5530_series'
 
 #aliasing protege
 alias protege='/home/evilscript/Apps/Protege-5.5.0/run.sh'
+alias graphdb='/home/evilscript/Apps/graphdb-se-9.5.0/bin/graphdb'
 
 #pacman unlock
 alias unlock="sudo rm /var/lib/pacman/db.lck"

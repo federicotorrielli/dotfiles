@@ -165,6 +165,13 @@ hc keybind $Mod-Control-i spawn setxkbmap gb
 # Minimize the current window
 hc keybind $Mod-w set_attr clients.focus.minimized true
 
+hc keybind $Mod-Shift-w foreach CLIENT clients. \
+     sprintf MINATT "%c.minimized" CLIENT \
+     sprintf TAGATT "%c.tag" CLIENT and \
+       , compare MINATT "=" "true" \
+       , substitute FOCUS "tags.focus.name" compare TAGATT "=" FOCUS \
+       , set_attr MINATT false \
+
 # theme
 hc attr theme.tiling.reset 1
 hc attr theme.floating.reset 1
@@ -324,19 +331,16 @@ dex $HOME/.config/autostart/arcolinux-welcome-app.desktop
 feh --bg-fill /home/evilscript/Pictures/nord-arch.png &
 #feh --bg-scale /usr/share/backgrounds/arcolinux/abstract-warm-heart-4560x2160.jpg
 conky -c $HOME/.config/herbstluftwm/system-overview &
-run variety &
 nm-applet &
 pamac-tray &
 xfce4-power-manager &
 numlockx on &
-blueberry-tray &
 run volumeicon &
 # nitrogen --restore &
 # caffeine &
 # vivaldi-stable &
 firefox &
 protonmail-bridge --no-window &
-# update-mirror (DA FARE UNA VOLTA AL MESE!)
 # jetbrains-toolbox &
 # thunar &
 # dropbox &

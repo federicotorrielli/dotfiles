@@ -9,12 +9,12 @@ My dotfile organization repository! Here you can find all the wonders of my magi
 - WM: Herbstluftwm (That takes a long time to write! Damn!)
 - OS: ArcoLinuxD (But remember that dotfiles are distro-indipendent)
 - Status bar: Polybar
-- Notifications: either standard xfce4 notif or Dunst
-- Terminal: kitty and st
+- Notifications: xfce4-notify
+- Terminal: kitty
 - Shell: 🐟
 - File Manager: Thunar, standard, not modified
 - Icon Theme: Papirus (Dark)
-- App Launcher: dmenu with standard Arcolinux config
+- App Launcher: Rofi (with custom Nord colors)
 - Firefox start: [Bento](https://github.com/federicotorrielli/Bento) by [MiguelRAvila](https://github.com/MiguelRAvila)
 - Spotify: spicetify-cli with Dribbblish Nord-Dark theme
 

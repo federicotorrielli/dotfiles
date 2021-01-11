@@ -20,6 +20,10 @@ alias upqll="yay -Syu --noconfirm"
 alias unzip='7z x'
 alias 7zarchive='7z a archiv.7z -m1=lz4 -mx22'
 
+#gotop
+alias gtop='btm'
+alias top='btm'
+
 #colorize the grep command output for ease of use (good for log files)##
 alias grep='grep --color=auto'
 alias egrep='egrep --color=auto'

@@ -129,6 +129,9 @@ alias mirrora="sudo reflector --latest 50 --number 20 --sort age --save /etc/pac
 #mounting the folder Public for exchange between host and guest on virtualbox
 alias vbm="sudo /usr/local/bin/arcolinux-vbox-share"
 
+#user installed packages and dependencies (fish edition)
+alias uipd='pacman -Qqe | grep -v "(pacman -Qqm)" > pacman.lst'
+
 #youtube-dl
 alias yta-aac="youtube-dl --extract-audio --audio-format aac "
 alias yta-best="youtube-dl --extract-audio --audio-format best "
@@ -139,9 +142,6 @@ alias yta-opus="youtube-dl --extract-audio --audio-format opus "
 alias yta-vorbis="youtube-dl --extract-audio --audio-format vorbis "
 alias yta-wav="youtube-dl --extract-audio --audio-format wav "
 alias ytv-best="youtube-dl -f bestvideo+bestaudio "
-
-#reddit client
-alias reddit='tuir'
 
 #recent Installed Packages
 alias rip="expac --timefmt='%Y-%m-%d %T' '%l\t%n %v' | sort | tail -200 | nl"

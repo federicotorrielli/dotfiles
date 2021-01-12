@@ -14,7 +14,7 @@ alias udpate='sudo pacman -Syyu'
 alias upate='sudo pacman -Syyu'
 alias updte='sudo pacman -Syyu'
 alias updqte='sudo pacman -Syyu'
-alias upqll="yay -Syu --noconfirm"
+alias upqll="paru"
 
 #7z instead of unzip
 alias unzip='7z x'
@@ -66,9 +66,9 @@ alias merge="xrdb -merge ~/.Xresources"
 alias pacman='sudo pacman --color auto'
 alias update='sudo pacman -Syyu'
 
-# yay as aur helper - updates everything
-alias pksyua="yay -Syu --noconfirm"
-alias upall="yay -Syu --noconfirm"
+# paru as aur helper - updates everything
+alias pksyua="paru"
+alias upall="paru"
 
 #ps
 alias psa="ps auxf"
@@ -98,7 +98,7 @@ alias tofish="sudo chsh $USER -s /usr/bin/fish && echo 'Now log out.'"
 #nvim is better than vim
 alias vim='nvim'
 
-#tldr instead of man
+#tldr (tealdeer - rust) instead of man
 alias man='tldr'
 
 #fd instead of find

@@ -9,12 +9,13 @@ alias lt='ls --tree'
 
 #fix obvious typo's
 alias cd..='cd ..'
-alias pdw="pwd"
+alias pdw='pwd'
 alias udpate='sudo pacman -Syyu'
 alias upate='sudo pacman -Syyu'
 alias updte='sudo pacman -Syyu'
 alias updqte='sudo pacman -Syyu'
-alias upqll="paru"
+alias upqll='paru'
+alias yay='paru'
 
 #7z instead of unzip
 alias unzip='7z x'
@@ -64,7 +65,7 @@ alias merge="xrdb -merge ~/.Xresources"
 #aliases for software managment
 # pacman or pm
 alias pacman='sudo pacman --color auto'
-alias update='sudo pacman -Syyu'
+alias update='topgrade'
 
 # paru as aur helper - updates everything
 alias pksyua="paru"
@@ -114,7 +115,6 @@ alias paint='pinta'
 alias hw="hwinfo --short"
 
 #skip integrity check
-alias yayskip='yay -S --mflags --skipinteg'
 alias trizenskip='trizen -S --skipinteg'
 
 #check vulnerabilities microcode

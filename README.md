@@ -16,6 +16,7 @@ My dotfile organization repository! Here you can find all the wonders of my magi
 - Icon Theme: Papirus (Dark)
 - App Launcher: Rofi (with custom Nord colors)
 - Firefox start: [Bento](https://github.com/federicotorrielli/Bento) by [MiguelRAvila](https://github.com/MiguelRAvila)
+  || I decided to fork it and update it by myself from now on, so you will notice differencies in the near future
 - Spotify: spicetify-cli with Dribbblish Nord-Dark theme
 
 ## Final note

@@ -132,6 +132,9 @@ alias vbm="sudo /usr/local/bin/arcolinux-vbox-share"
 #user installed packages and dependencies (fish edition)
 alias uipd='pacman -Qqe | grep -v "(pacman -Qqm)" > pacman.lst'
 
+#compress-pdf
+alias pdfzip='gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/ebook -dNOPAUSE -dQUIET -dBATCH -sOutputFile=compressed.pdf '
+
 #youtube-dl
 alias yta-aac="youtube-dl --extract-audio --audio-format aac "
 alias yta-best="youtube-dl --extract-audio --audio-format best "

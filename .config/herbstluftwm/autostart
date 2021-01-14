@@ -339,8 +339,8 @@ run volumeicon &
 # nitrogen --restore &
 # caffeine &
 # vivaldi-stable &
-firefox &
 protonmail-bridge --no-window &
+birdtray &
 # jetbrains-toolbox &
 # thunar &
 # dropbox &

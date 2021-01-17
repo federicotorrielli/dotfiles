@@ -6,13 +6,13 @@
 My dotfile organization repository! Here you can find all the wonders of my magical config for my daily driver.
 
 ## Specs
-- WM: Herbstluftwm (That takes a long time to write! Damn!)
-- OS: ArcoLinuxD (But remember that dotfiles are distro-indipendent)
+- WM: Herbstluftwm
+- OS: ArcoLinuxD 21.01
 - Status bar: Polybar
 - Notifications: xfce4-notify
 - Terminal: kitty
 - Shell: 🐟
-- File Manager: Thunar, standard, not modified
+- File Manager: Thunar, I only changed the GTK theme
 - Icon Theme: Papirus (Dark)
 - App Launcher: Rofi (with custom Nord colors)
 - Firefox start: [Bento](https://github.com/federicotorrielli/Bento) by [MiguelRAvila](https://github.com/MiguelRAvila)

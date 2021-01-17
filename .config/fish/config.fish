@@ -197,7 +197,7 @@ alias ssn="sudo shutdown now"
 alias sr="sudo reboot"
 
 #rsync instead of cp
-alias cp="rsync -vazP"
+alias ncp="rsync -vazP"
 
 #add python3 pip path here
 set PATH /home/evilscript/.local/bin $PATH

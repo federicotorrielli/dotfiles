@@ -7,6 +7,9 @@ alias la='ls -a'
 alias lla='ls -la'
 alias lt='ls --tree'
 
+#bat instead of cat
+alias cat='bat'
+
 #fix obvious typo's
 alias cd..='cd ..'
 alias pdw='pwd'
@@ -15,7 +18,6 @@ alias upate='sudo pacman -Syyu'
 alias updte='sudo pacman -Syyu'
 alias updqte='sudo pacman -Syyu'
 alias upqll='paru'
-alias yay='paru'
 
 #7z instead of unzip
 alias unzip='7z x'

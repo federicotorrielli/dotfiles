@@ -52,11 +52,6 @@ name = "VersionControl"
 name = 'lang#html'
 
 [[layers]]
-name = 'lang#javascript'
-auto_fix = true
-enable_flow_syntax = true
-
-[[layers]]
 name = 'lang#python'
 format_on_save = true
 python_file_head = [

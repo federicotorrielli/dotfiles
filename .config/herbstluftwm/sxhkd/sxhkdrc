@@ -58,9 +58,9 @@ super + F12
 # SUPER + ... KEYS
 #################################################################
 
-#Conky-toggle
+#clipboard manager
 super + c
-    conky-toggle
+    clipcat-menu
 
 #conflicts
 #Htop

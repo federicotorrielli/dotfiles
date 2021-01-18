@@ -13,6 +13,7 @@ arandr
 arc-gtk-theme
 arch-install-scripts
 arcolinux-bin-git
+arcolinux-config-all-desktops-git
 arcolinux-config-herbstluftwm-git
 arcolinux-conky-collection-git
 arcolinux-fonts-git
@@ -61,6 +62,7 @@ btrfs-progs
 cabextract
 chromium
 cinnamon
+clipcat
 clonezilla
 cmatrix
 conky-lua-archers
@@ -272,6 +274,7 @@ sdparm
 sed
 sg3_utils
 sharutils
+simple-scan
 simplescreenrecorder
 skypeforlinux-stable-bin
 smartmontools
@@ -279,7 +282,6 @@ speedtest-cli
 spicetify-cli
 spotify
 squashfs-tools
-st
 sublime-text-dev
 sudo
 surfn-icons-git
@@ -291,6 +293,7 @@ tcpdump
 tealdeer
 telegram-desktop
 terminus-font
+termite
 testdisk
 texinfo
 the_platinum_searcher-bin

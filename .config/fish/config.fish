@@ -134,6 +134,8 @@ alias vbm="sudo /usr/local/bin/arcolinux-vbox-share"
 
 #user installed packages and dependencies (fish edition)
 alias uipd='pacman -Qqe | grep -v "(pacman -Qqm)" > pacman.lst'
+#user installed packages w/o dependencies
+alias uia='pacman -Qqm > pacman-user.lst'
 
 #compress-pdf
 alias pdfzip='gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/ebook -dNOPAUSE -dQUIET -dBATCH -sOutputFile=compressed.pdf '

@@ -70,6 +70,9 @@ name = 'lang#c'
 [[layers]]
 name = 'lang#toml'
 
+[[layers]]
+name = 'format'
+
 # Custom plugins
 
 [[custom_plugins]]

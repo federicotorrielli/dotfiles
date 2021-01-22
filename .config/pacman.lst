@@ -116,6 +116,7 @@ gksu
 glances
 glib
 gmrun
+gnome-disk-utility
 gnome-keyring
 gnome-screenshot
 gnu-netcat
@@ -264,6 +265,7 @@ rofi
 rolldice
 rp-pppoe
 rsync
+ruby
 rust
 rxvt-unicode
 sardi-icons

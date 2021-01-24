@@ -11,6 +11,7 @@ My dotfile organization repository! Here you can find all the wonders of my magi
 - Status bar: Polybar
 - Notifications: xfce4-notify
 - Terminal: kitty
+- Text Editor: SpaceVim + ox
 - Shell: 🐟
 - File Manager: Thunar, I only changed the GTK theme
 - Icon Theme: Papirus (Dark)

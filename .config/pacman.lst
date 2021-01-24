@@ -227,6 +227,7 @@ openresolv
 openssh
 openvpn
 os-prober
+ox-git
 pacman
 pamac-aur
 papirus-icon-theme

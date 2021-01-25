@@ -10,8 +10,8 @@ My dotfile organization repository! Here you can find all the wonders of my magi
 - OS: ArcoLinuxD 21.01
 - Status bar: Polybar
 - Notifications: xfce4-notify
-- Terminal: kitty
-- Text Editor: SpaceVim + ox
+- Terminal: Nord-Alacritty
+- Text Editor: SpaceVim
 - Shell: 🐟
 - File Manager: Thunar, I only changed the GTK theme
 - Icon Theme: Papirus (Dark)

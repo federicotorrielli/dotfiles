@@ -78,7 +78,7 @@ super + x
 
 #terminal
 super + t
-    kitty
+    alacritty
 
 #Pavucontrol
 super + v
@@ -90,7 +90,7 @@ super + m
 
 #Terminal2
 super + Return
-    kitty
+    alacritty
 
 #Xkill
 super + Escape

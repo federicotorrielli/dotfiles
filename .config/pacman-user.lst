@@ -12,11 +12,13 @@ lemonbar-xft-git
 lsd-bin
 mkinitcpio-openswap
 nerd-fonts-mononoki
-ox-git
+nodejs-markdown-pdf
+ox-bin
 paru
 peerflix
 perl-parse-exuberantctags
 pfetch-git
+phantomjs
 protonmail-bridge
 rolldice
 sddm-sugar-dark

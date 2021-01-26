@@ -1,5 +1,4 @@
 anydesk-bin
-arcolinux-systemd-services-git
 autojump
 balena-etcher
 birdtray
@@ -12,13 +11,11 @@ lemonbar-xft-git
 lsd-bin
 mkinitcpio-openswap
 nerd-fonts-mononoki
-nodejs-markdown-pdf
 ox-bin
 paru
 peerflix
 perl-parse-exuberantctags
 pfetch-git
-phantomjs
 protonmail-bridge
 rolldice
 sddm-sugar-dark
@@ -28,4 +25,4 @@ topgrade
 torrentflix
 ultra-simple-screen-recorder-git
 update-grub
-yadm-git
+yadm

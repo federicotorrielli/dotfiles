@@ -31,7 +31,7 @@ arcolinux-neofetch-git
 arcolinux-pipemenus-git
 arcolinux-polybar-git
 arcolinux-root-git
-arcolinux-systemd-services-git
+arcolinux-tellme-git
 arcolinux-termite-themes-git
 arcolinux-tweak-tool-git
 arcolinux-variety-git
@@ -154,7 +154,6 @@ irssi
 jetbrains-toolbox
 jfsutils
 jre-openjdk
-jre8-openjdk
 laptop-detect
 libpwquality
 libtool
@@ -206,7 +205,6 @@ nfs-utils
 nilfs-utils
 ninja
 nitrogen
-nodejs-markdown-pdf
 nomacs
 noto-fonts
 noto-fonts-cjk
@@ -406,7 +404,7 @@ xorg-xwininfo
 xorg-xwud
 xtitle-git
 yad
-yadm-git
+yadm
 yay-bin
 youtube-dl
 zip

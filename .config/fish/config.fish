@@ -101,9 +101,6 @@ alias tofish="sudo chsh $USER -s /usr/bin/fish && echo 'Now log out.'"
 #nvim is better than vim
 alias vim='nvim'
 
-#tldr (tealdeer - rust) instead of man
-alias man='tldr'
-
 #fd instead of find
 alias find='fd'
 

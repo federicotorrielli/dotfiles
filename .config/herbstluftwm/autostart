@@ -318,7 +318,7 @@ pkill -u $USER 'conky'
 # picom --config $HOME/.config/picom/picom.conf &
 picom --config $HOME/.config/herbstluftwm/picom.conf &
 /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
-/usr/lib/xfce4/notifyd/xfce4-notifyd &
+dunst &
 
 xsetroot -solid '#000000'
 xsetroot -cursor_name left_ptr &
@@ -328,7 +328,7 @@ sxhkd -c ~/.config/herbstluftwm/sxhkd/sxhkdrc &
 
 dex $HOME/.config/autostart/arcolinux-welcome-app.desktop
 #feh --bg-scale ~/.config/herbstluftwm/wall.png &
-feh --bg-fill /home/evilscript/Pictures/nord-arch.png &
+feh --bg-fill /home/evilscript/Pictures/bg.png &
 #feh --bg-scale /usr/share/backgrounds/arcolinux/abstract-warm-heart-4560x2160.jpg
 conky -c $HOME/.config/herbstluftwm/system-overview &
 nm-applet &

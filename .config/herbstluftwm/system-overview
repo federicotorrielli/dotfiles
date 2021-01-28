@@ -121,7 +121,6 @@ ${color1}Root${goto 60}${color2}${fs_used /}${alignr}${fs_size /}${color}
 
 ${color1}${goto 60}Mem${alignr}Max${color}
 ${color1}RAM${goto 60}${color2}${mem}${alignr}${memmax}${color}
-${color1}Swap${goto 60}${color2}${swap}${alignr}${swapmax}${color}
 
 ${color1}CPU:${goto 60}Used${alignr}GHz${color}
 ${color1}Avg${goto 60}${color2}${if_match ${cpu cpu0}<50}  ${cpu cpu0}\

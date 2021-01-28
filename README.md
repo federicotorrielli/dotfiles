@@ -9,7 +9,7 @@ My dotfile organization repository! Here you can find all the wonders of my magi
 - WM: Herbstluftwm
 - OS: ArcoLinuxD 21.01
 - Status bar: Polybar
-- Notifications: xfce4-notify
+- Notifications: Dunst
 - Terminal: Nord-Alacritty
 - Text Editor: SpaceVim
 - Shell: 🐟

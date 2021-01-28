@@ -80,6 +80,7 @@ dhclient
 dialog
 diffutils
 discord_arch_electron
+diskonaut
 dmenu
 dmraid
 dnsmasq
@@ -122,6 +123,7 @@ gnome-disk-utility
 gnome-keyring
 gnome-screenshot
 gnu-netcat
+go
 gotop-bin
 gparted
 gpm
@@ -190,7 +192,6 @@ mpv
 mtools
 nano
 nbd
-ncdu
 ndisc6
 neofetch
 neovim
@@ -263,6 +264,7 @@ qt5-xmlpatterns
 reflector
 reiserfsprogs
 ripgrep
+rm-improved
 rofi
 rolldice
 rp-pppoe

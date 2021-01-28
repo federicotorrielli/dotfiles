@@ -107,6 +107,9 @@ alias find='fd'
 #ripgrep instead of grep
 alias grep='rg'
 
+#diskonaut
+alias ncdu='diskonaut'
+
 #broot instead of tree
 alias tree='br'
 
@@ -155,7 +158,7 @@ alias yta-wav="youtube-dl --extract-audio --audio-format wav "
 alias ytv-best="youtube-dl -f bestvideo+bestaudio "
 
 #recent Installed Packages
-alias rip="expac --timefmt='%Y-%m-%d %T' '%l\t%n %v' | sort | tail -200 | nl"
+alias ripa="expac --timefmt='%Y-%m-%d %T' '%l\t%n %v' | sort | tail -200 | nl"
 alias riplong="expac --timefmt='%Y-%m-%d %T' '%l\t%n %v' | sort | tail -3000 | nl"
 
 #iso and version used to install ArcoLinux

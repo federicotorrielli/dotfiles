@@ -104,6 +104,12 @@ alias vim='nvim'
 #fd instead of find
 alias find='fd'
 
+#ripgrep instead of grep
+alias grep='rg'
+
+#broot instead of tree
+alias tree='br'
+
 #quickly kill conkies
 alias kc='killall conky'
 

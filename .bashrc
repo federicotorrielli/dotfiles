@@ -223,3 +223,5 @@ ex ()
 [[ -f ~/.bashrc-personal ]] && . ~/.bashrc-personal
 
 neofetch
+
+source /home/evilscript/.config/broot/launcher/bash/br

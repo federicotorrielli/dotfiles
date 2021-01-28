@@ -59,6 +59,7 @@ bluez-utils
 boost-libs
 bottom
 broadcom-wl
+broot
 btrfs-progs
 cabextract
 chromium
@@ -113,7 +114,6 @@ gettext
 gimp
 git
 gitahead-bin
-gitkraken
 gksu
 glances
 glib
@@ -262,6 +262,7 @@ qbittorrent
 qt5-xmlpatterns
 reflector
 reiserfsprogs
+ripgrep
 rofi
 rolldice
 rp-pppoe

@@ -7,7 +7,6 @@ alacritty
 alsa-firmware
 alsa-utils
 ant
-anydesk-bin
 apache
 appstream
 arandr
@@ -86,6 +85,7 @@ dmraid
 dnsmasq
 dosfstools
 downgrade
+dunst
 edid-decode-git
 edk2-shell
 efibootmgr
@@ -107,6 +107,7 @@ firefox
 fish
 flameshot
 flex
+font-manager-git
 fortune-mod-cybersuntzu
 fsarchiver
 gawk
@@ -230,6 +231,7 @@ os-prober
 ox-bin
 pacman
 pamac-aur
+paper-icon-theme
 papirus-icon-theme
 partclone
 parted

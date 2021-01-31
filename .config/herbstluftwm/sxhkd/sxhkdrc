@@ -84,10 +84,6 @@ super + t
 super + v
     pavucontrol
 
-#Pragha
-super + m
-    pragha
-
 #Terminal2
 super + Return
     alacritty
@@ -151,10 +147,6 @@ ctrl + alt + Prior
 ctrl + alt + b
      thunar
 
-#Catfish
-ctrl + alt + c
-     catfish
-
 #Firefox
 ctrl + alt + f
      firefox
@@ -183,19 +175,9 @@ ctrl + alt + r
 ctrl + alt + s
    spotify
 
-#Vivaldi
-ctrl + alt + v
-    vivaldi-stable
-
 #Xfce4-appfinder
 ctrl + alt + a
     xfce4-appfinder
-
-
-#Keyboard dependent
-#termite
-#ctrl + alt + KP_Enter
-#     termite
 
 
 #################################################################
@@ -271,9 +253,9 @@ alt + shift + u
 # CONTROL + SHIFT KEYS
 #################################################################
 
-#Xcfe4-TaskManager
+#TaskManager
 ctrl + shift + Escape
-    xfce4-taskmanager
+    alacritty -e btm
 
 
 #################################################################
@@ -398,11 +380,3 @@ super + shift +r
 #super + shift + x
 #    herbstclient quit
 
-
-
-
-#################################################################
-#################################################################
-##################   AZERTY/QWERTY/ ... KEYBOARD#################
-#################################################################
-#################################################################

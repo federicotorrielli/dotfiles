@@ -1,6 +1,4 @@
 autojump
-balena-etcher
-birdtray
 bottom
 clipcat
 diskonaut
@@ -9,10 +7,8 @@ glib
 jetbrains-toolbox
 lemonbar-xft-git
 lsd-bin
-mkinitcpio-openswap
 nerd-fonts-mononoki
 ox-bin
-paru
 peerflix
 perl-parse-exuberantctags
 pfetch-git
@@ -20,10 +16,7 @@ protonmail-bridge
 rm-improved
 rolldice
 sddm-sugar-dark
-spicetify-cli
 tealdeer
-topgrade
 torrentflix
 ultra-simple-screen-recorder-git
-update-grub
 yadm

@@ -65,7 +65,6 @@ chaotic-keyring
 chaotic-mirrorlist
 chromium
 cinnamon
-clipcat
 clonezilla
 cmatrix
 conky-lua-archers
@@ -174,6 +173,7 @@ lvm2
 lxappearance
 lxrandr
 m4
+macchina
 make
 man-db
 man-pages

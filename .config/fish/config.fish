@@ -201,6 +201,9 @@ alias probe="sudo -E hw-probe -all -upload"
 #cmatrix
 alias cmatrix="cmatrix -a"
 
+#macchina
+alias macchina="macchina -H mach bat"
+
 #shutdown or reboot
 alias ssn="sudo shutdown now"
 alias sr="sudo reboot"

@@ -276,6 +276,8 @@ hc rule class=Arcolinux-welcome-app.py pseudotile=on
 hc rule class=vlc pseudotile=on
 hc rule class=jetbrains-toolbox floating=on
 hc rule class=balena-etcher floating=on
+hc rule class='google assistant' floating=on
+hc rule class='Google Assistant' floating=on
 hc rule instance=simplescreenrecorder floating=on
 hc rule instance=Dialog floating=on
 hc rule windowrole=xfce4-terminal-dropdown floating=on
@@ -341,6 +343,7 @@ run volumeicon &
 # vivaldi-stable &
 protonmail-bridge --no-window &
 birdtray &
+~/Apps/Assistant/dist/assistant.AppImage
 # jetbrains-toolbox &
 # thunar &
 # dropbox &

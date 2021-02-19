@@ -69,6 +69,7 @@ clonezilla
 cmatrix
 conky-lua-archers
 crda
+croc
 cryptsetup
 cups
 cups-pdf
@@ -143,6 +144,7 @@ gtk-engine-murrine
 gutenprint
 gvfs-smb
 gzip
+handlr-bin
 hardcode-fixer-git
 haveged
 hdparm
@@ -255,7 +257,8 @@ polkit-gnome
 polybar
 ppp
 pptpclient
-protonmail-bridge
+preload
+protonmail-bridge-bin
 psensor
 pulseaudio
 pulseaudio-alsa
@@ -264,6 +267,7 @@ pyenv
 python-pip
 python-pywal
 qbittorrent
+qimgv
 qt5-xmlpatterns
 reflector
 reiserfsprogs
@@ -350,6 +354,7 @@ wireless_tools
 wpa_supplicant
 wvdial
 xdg-user-dirs
+xdg-utils-handlr
 xdo
 xf86-input-elographics
 xf86-input-evdev

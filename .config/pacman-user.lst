@@ -3,6 +3,7 @@ bottom
 diskonaut
 fortune-mod-cybersuntzu
 glib
+handlr-bin
 lemonbar-xft-git
 lsd-bin
 macchina
@@ -11,11 +12,13 @@ ox-bin
 peerflix
 perl-parse-exuberantctags
 pfetch-git
-protonmail-bridge
+protonmail-bridge-bin
+qimgv
 rm-improved
 rolldice
 sddm-sugar-dark
 tealdeer
 torrentflix
 ultra-simple-screen-recorder-git
+xdg-utils-handlr
 yadm

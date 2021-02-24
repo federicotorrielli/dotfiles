@@ -1,9 +1,11 @@
 autojump
 bottom
+clingo
 diskonaut
 fortune-mod-cybersuntzu
 glib
 handlr-bin
+heroku-cli
 lemonbar-xft-git
 lsd-bin
 macchina
@@ -14,11 +16,13 @@ perl-parse-exuberantctags
 pfetch-git
 protonmail-bridge-bin
 qimgv
+reflector-mirrorlist-update
 rm-improved
 rolldice
 sddm-sugar-dark
 tealdeer
 torrentflix
 ultra-simple-screen-recorder-git
+wget2
 xdg-utils-handlr
 yadm

@@ -65,9 +65,12 @@ chaotic-keyring
 chaotic-mirrorlist
 chromium
 cinnamon
+clingo
 clonezilla
 cmatrix
 conky-lua-archers
+cpu-x
+cpuid
 crda
 croc
 cryptsetup
@@ -149,6 +152,7 @@ hardcode-fixer-git
 haveged
 hdparm
 herbstluftwm
+heroku-cli
 httpie
 hw-probe
 hwinfo
@@ -270,6 +274,7 @@ qbittorrent
 qimgv
 qt5-xmlpatterns
 reflector
+reflector-mirrorlist-update
 reiserfsprogs
 ripgrep
 rm-improved
@@ -290,7 +295,6 @@ sed
 sg3_utils
 sharutils
 simple-scan
-simplescreenrecorder
 skypeforlinux-stable-bin
 smartmontools
 speedtest-cli
@@ -300,6 +304,7 @@ squashfs-tools
 sublime-text-dev
 sudo
 surfn-icons-git
+swi-prolog
 sxhkd
 syslinux
 system-config-printer
@@ -342,12 +347,18 @@ usb_modeswitch
 usbutils
 uudeview
 vim
+virtualbox
+virtualbox-ext-oracle
+virtualbox-guest-iso
+virtualbox-host-modules-arch
 vis
+visual-studio-code-bin
 vlc
 volumeicon
 vpnc
 w3m
 wget
+wget2
 which
 wireless-regdb
 wireless_tools

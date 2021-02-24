@@ -23,6 +23,9 @@ alias upqll='paru'
 alias unzip='7z x'
 alias 7zarchive='7z a archiv.7z -m1=lz4 -mx22'
 
+#set bat as manpager
+set -x MANPAGER "sh -c 'col -bx | bat -l man -p'"
+
 #gotop
 alias gtop='btm'
 alias top='btm'
@@ -56,7 +59,7 @@ alias free="free -mt"
 alias uac="sh ~/.bin/main/000*"
 
 #continue download
-alias wget="wget -c"
+alias wget="wget2 -c"
 
 #userlist
 alias userlist="cut -d: -f1 /etc/passwd"
@@ -133,7 +136,7 @@ alias mirror="sudo reflector -f 30 -l 30 --number 10 --verbose --save /etc/pacma
 alias mirrord="sudo reflector --latest 50 --number 20 --sort delay --save /etc/pacman.d/mirrorlist"
 alias mirrors="sudo reflector --latest 50 --number 20 --sort score --save /etc/pacman.d/mirrorlist"
 alias mirrora="sudo reflector --latest 50 --number 20 --sort age --save /etc/pacman.d/mirrorlist"
-alias mirrorx="sudo reflector --age 6 --latest 20 --fastest 20 --threads 20 --sort rate -c it,fr,at,de,gb --protocol https --save /etc/pacman.d/mirrorlist"
+alias mirrorx="sudo reflector --age 6 --latest 20 --fastest 20 --threads 20 --sort rate -c it,fr --protocol https --save /etc/pacman.d/mirrorlist"
 
 #mounting the folder Public for exchange between host and guest on virtualbox
 alias vbm="sudo /usr/local/bin/arcolinux-vbox-share"
@@ -216,6 +219,3 @@ set PATH /home/evilscript/.local/bin $PATH
 
 #start the ssh agent
 fish_ssh_agent
-
-#start the party
-#bfetch | cat.sh

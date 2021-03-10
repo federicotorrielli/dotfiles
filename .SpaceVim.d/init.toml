@@ -71,6 +71,9 @@ name = 'lang#c'
 name = 'lang#toml'
 
 [[layers]]
+name = 'lang#prolog'
+
+[[layers]]
 name = 'format'
 
 # Custom plugins

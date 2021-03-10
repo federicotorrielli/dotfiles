@@ -20,7 +20,6 @@ alias updqte='sudo pacman -Syyu'
 alias upqll='paru'
 
 #7z instead of unzip
-alias unzip='7z x'
 alias 7zarchive='7z a archiv.7z -m1=lz4 -mx22'
 
 #set bat as manpager

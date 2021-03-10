@@ -343,7 +343,7 @@ run volumeicon &
 # vivaldi-stable &
 protonmail-bridge --no-window &
 birdtray &
-~/Apps/Assistant/dist/assistant.AppImage
+nextcloud --background &
 # jetbrains-toolbox &
 # thunar &
 # dropbox &

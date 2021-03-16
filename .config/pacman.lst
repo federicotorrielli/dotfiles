@@ -30,6 +30,8 @@ arcolinux-neofetch-git
 arcolinux-pipemenus-git
 arcolinux-polybar-git
 arcolinux-root-git
+arcolinux-sddm-sugar-candy-git
+arcolinux-systemd-services-git
 arcolinux-tellme-git
 arcolinux-termite-themes-git
 arcolinux-tweak-tool-git
@@ -40,15 +42,15 @@ arcolinux-xfce-git
 arcolinuxd-system-config-git
 arj
 asciinema
+atool
 autoconf
 autojump
 automake
 awesome-terminal-fonts
-balena-etcher
 base
 bash-completion
 bat
-bibata-cursor-theme
+bibata-cursor-theme-bin
 bind
 binutils
 birdtray
@@ -61,6 +63,7 @@ broadcom-wl
 broot
 btrfs-progs
 cabextract
+catimg
 chaotic-keyring
 chaotic-mirrorlist
 chromium
@@ -68,17 +71,19 @@ cinnamon
 clingo
 clonezilla
 cmatrix
+cmus
 conky-lua-archers
-cpu-x
 cpuid
 crda
 croc
 cryptsetup
 cups
 cups-pdf
+cw-rs
 darkhttpd
 dconf-editor
 ddrescue
+devtools
 dex
 dhclient
 dialog
@@ -94,6 +99,8 @@ dunst
 edid-decode-git
 edk2-shell
 efibootmgr
+elinks
+etcher-bin
 ethtool
 evince
 exfatprogs
@@ -104,6 +111,7 @@ fakeroot
 fd
 feh
 fff
+ffmpegthumbnailer
 file
 file-roller
 filezilla
@@ -120,7 +128,7 @@ gcc
 gettext
 gimp
 git
-gitahead-bin
+git-delta
 gksu
 glances
 glib
@@ -129,7 +137,6 @@ gnome-disk-utility
 gnome-keyring
 gnome-screenshot
 gnu-netcat
-go
 gotop-bin
 gparted
 gpm
@@ -151,12 +158,13 @@ handlr-bin
 hardcode-fixer-git
 haveged
 hdparm
+hefftor-mirrors-git
 herbstluftwm
-heroku-cli
+heroku-cli-bin
+highlight
 httpie
 hw-probe
 hwinfo
-inkscape
 inxi
 ipw2100-fw
 ipw2200-fw
@@ -177,6 +185,7 @@ lsd-bin
 lsscsi
 lvm2
 lxappearance
+lxqt-arc-dark-theme-git
 lxrandr
 m4
 macchina
@@ -187,6 +196,7 @@ mariadb
 mbedtls
 mc
 mdadm
+mediainfo
 meld
 memtest86+
 mesa
@@ -211,6 +221,7 @@ networkmanager-openconnect
 networkmanager-openvpn
 networkmanager-pptp
 networkmanager-vpnc
+nextcloud-client
 nfs-utils
 nilfs-utils
 ninja
@@ -222,6 +233,7 @@ noto-fonts-emoji
 nss-mdns
 ntfs-3g
 ntp
+numix-gtk-theme-git
 numlockx
 nvidia
 nvidia-settings
@@ -237,6 +249,7 @@ openssh
 openvpn
 os-prober
 ox-bin
+p7zip-jinfeihan57-git
 pacman
 pamac-aur
 paper-icon-theme
@@ -247,7 +260,6 @@ partimage
 paru
 patch
 pavucontrol
-peek
 perl-parse-exuberantctags
 pfetch-git
 php-apache
@@ -267,12 +279,15 @@ psensor
 pulseaudio
 pulseaudio-alsa
 pulseaudio-bluetooth
+pulsemixer
 pyenv
+python-pillow-simd
 python-pip
 python-pywal
 qbittorrent
 qimgv
 qt5-xmlpatterns
+ranger
 reflector
 reflector-mirrorlist-update
 reiserfsprogs
@@ -288,6 +303,7 @@ rxvt-unicode
 sardi-icons
 scrot
 sddm
+sddm-config-editor-git
 sddm-sugar-candy-git
 sddm-sugar-dark
 sdparm
@@ -311,6 +327,7 @@ system-config-printer
 tamsyn-font
 tcpdump
 tealdeer
+teamviewer
 telegram-desktop
 terminus-font
 termite
@@ -333,9 +350,11 @@ ttf-droid
 ttf-hack
 ttf-hanazono
 ttf-inconsolata
+ttf-nerd-fonts-hack-complete-git
 ttf-roboto
 ttf-ubuntu-font-family
-ultra-simple-screen-recorder-git
+typespeed
+ueberzug
 unace
 unrar
 unzip
@@ -353,6 +372,7 @@ virtualbox-guest-iso
 virtualbox-host-modules-arch
 vis
 visual-studio-code-bin
+viu
 vlc
 volumeicon
 vpnc

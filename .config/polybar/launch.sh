@@ -73,13 +73,15 @@ case $desktop in
     ;;
 
     herbstluftwm|/usr/share/xsessions/herbstluftwm)
-    if type "xrandr" > /dev/null; then
-      for m in $(xrandr --query | grep " connected" | cut -d" " -f1); do
-        MONITOR=$m polybar --reload mainbar-herbstluftwm -c ~/.config/polybar/config &
-      done
-    else
-    polybar --reload mainbar-herbstluftwm -c ~/.config/polybar/config &
-    fi
+    polybar --reload mainbar-herbstluftwm-extra -c ~/.config/polybar/config
+    polybar --reload mainbar-herbstluftwm -c ~/.config/polybar/config
+    #if type "xrandr" > /dev/null; then
+    #  for m in $(xrandr --query | grep " connected" | cut -d" " -f1); do
+    #    MONITOR=$m polybar --reload mainbar-herbstluftwm -c ~/.config/polybar/config &
+    #  done
+    #else
+    #polybar --reload mainbar-herbstluftwm -c ~/.config/polybar/config &
+    #fi
     # second polybar at bottom
     # if type "xrandr" > /dev/null; then
     #   for m in $(xrandr --query | grep " connected" | cut -d" " -f1); do

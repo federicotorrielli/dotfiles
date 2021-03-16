@@ -7,13 +7,13 @@ My dotfile organization repository! Here you can find all the wonders of my magi
 
 ## Specs
 - WM: Herbstluftwm
-- OS: ArcoLinuxD 21.01
+- OS: ArcoLinuxD
 - Status bar: Polybar
 - Notifications: Dunst
 - Terminal: Nord-Alacritty
 - Text Editor: SpaceVim
 - Shell: 🐟
-- File Manager: Thunar, I only changed the theme
+- File Manager: Thunar or ranger
 - Icon Theme: Papirus (Dark)
 - App Launcher: Rofi (with custom Nord colors)
 - Firefox start: [Bento](https://github.com/federicotorrielli/Bento)

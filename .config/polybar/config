@@ -25,13 +25,11 @@ screenchange-reload = true
 compositing-background = over
 compositing-foreground = over
 compositing-overline = over
-compositing-underline = over
 compositing-border = over
 
 ; Define fallback values used by all module formats
 format-foreground = #FF0000
 format-background = #00FF00
-format-underline =
 format-overline =
 format-spacing =
 format-padding =
@@ -1001,7 +999,6 @@ label-mode-background = #FFBB00
 label-focused = %icon% %name%
 label-focused-background = ${colors.background}
 label-focused-foreground = ${colors.foreground}
-label-focused-underline = #6790eb
 label-focused-padding = 2
 
 ; Available tokens:
@@ -1014,12 +1011,10 @@ label-unfocused = %icon% %name%
 label-unfocused-padding = 2
 label-unfocused-background = ${colors.background}
 label-unfocused-foreground = ${colors.foreground}
-label-unfocused-underline =
 
 ; visible = Active workspace on unfocused monitor
 label-visible = %icon% %name%
 label-visible-background = ${self.label-focused-background}
-label-visible-underline = ${self.label-focused-underline}
 label-visible-padding = 2
 
 ; Available tokens:
@@ -1067,7 +1062,6 @@ format = <label-state> <label-mode>
 
 label-focused = %icon%
 label-focused-background = ${colors.background}
-label-focused-underline= #6790eb
 label-focused-padding = 4
 label-focused-foreground = #6790EB
 
@@ -1124,7 +1118,6 @@ format-foreground = ${colors.foreground}
 format-background = ${colors.background}
 format-prefix = "  "
 format-prefix-foreground = #FFBB00
-format-underline = #FFBB00
 
 [module/aur-updates]
 type = custom/script
@@ -1135,7 +1128,6 @@ format-foreground = ${colors.foreground}
 format-background = ${colors.background}
 format-prefix = "  "
 format-prefix-foreground = #FFBB00
-format-underline = #FFBB00
 
 ################################################################################
 
@@ -1146,8 +1138,6 @@ card = intel_backlight
 format-foreground = ${colors.foreground}
 format-background = ${colors.background}
 format-prefix-foreground = #7D49B6
-format-prefix-underline = #7D49B6
-format-underline = #7D49B6
 ################################################################################
 
 [module/backlight]
@@ -1197,17 +1187,14 @@ format-charging = <animation-charging> <label-charging>
 label-charging =  %percentage%%
 format-charging-foreground = ${colors.foreground}
 format-charging-background = ${colors.background}
-format-charging-underline = #a3c725
 
 format-discharging = <ramp-capacity> <label-discharging>
 label-discharging =  %percentage%%
-format-discharging-underline = #c7ae25
 format-discharging-foreground = ${colors.foreground}
 format-discharging-background = ${colors.background}
 
 format-full-prefix = " "
 format-full-prefix-foreground = #a3c725
-format-full-underline = #a3c725
 format-foreground = ${colors.foreground}
 format-background = ${colors.background}
 
@@ -1239,7 +1226,6 @@ format-background = ${colors.background}
 ;   
 format-prefix = " "
 format-prefix-foreground = #cd1f3f
-format-underline = #cd1f3f
 
 ; Available tags:
 ;   <label> (default)
@@ -1293,7 +1279,6 @@ format-foreground = ${colors.foreground}
 format-background = ${colors.background}
 format-prefix = "  "
 format-prefix-foreground = #cd1f3f
-format-underline = #cd1f3f
 
 label-font = 3
 
@@ -1339,7 +1324,6 @@ ramp-coreload-7-foreground = ${colors.adapta-red}
 ramp-coreload-font = 3
 format-background = ${colors.background}
 format-foreground = ${colors.foreground}
-format-underline = ${colors.foreground-alt}
 format-padding = 3
 
 ################################################################################
@@ -1357,7 +1341,6 @@ time = %H:%M
 time-alt = %H:%M
 format-prefix = " "
 format-prefix-foreground = #c1941a
-format-underline = #c1941a
 format-foreground = ${colors.foreground}
 format-background = ${colors.background}
 label = %date% %time%
@@ -1384,7 +1367,6 @@ menu-0-2-exec = killall Discord | killall Discord | killall telegram-deskto
 
 format-background = ${colors.background}
 format-foreground = ${colors.foreground}
-format-underline = ${colors.foreground-alt}
 format-padding = 1
 
 #################################################################
@@ -1410,7 +1392,6 @@ label-monitor = %name%
 label-active = %name%
 label-active-foreground = ${colors.foreground}
 label-active-background = ${colors.background}
-label-active-underline= #6790eb
 label-active-padding = 2
 
 label-occupied = %name%
@@ -1420,7 +1401,6 @@ label-occupied-padding = 2
 label-urgent = %name%
 label-urgent-foreground = ${colors.foreground}
 label-urgent-background = ${colors.alert}
-label-urgent-underline = ${colors.alert}
 label-urgent-padding = 2
 
 
@@ -1462,7 +1442,6 @@ spacing = 4
 format-mounted = <label-mounted>
 format-mounted-foreground = ${colors.foreground}
 format-mounted-background = ${colors.background}
-format-mounted-underline = ${colors.foreground-alt}
 
 ; Available tokens:
 ;   %mountpoint%
@@ -1483,7 +1462,6 @@ label-mounted =   %used% of %total%
 label-unmounted =   not mounted
 format-unmounted-foreground = ${colors.foreground}
 format-unmounted-background = ${colors.background}
-;format-unmounted-underline = ${colors.alert}
 
 ################################################################################
 
@@ -1497,7 +1475,6 @@ format-foreground = ${colors.foreground}
 format-background = ${colors.background}
 format-prefix = "  "
 format-prefix-foreground = #0084FF
-format-underline = #0084FF
 
 ################################################################################
 
@@ -1524,7 +1501,6 @@ format-foreground = ${colors.foreground}
 format-background = ${colors.background}
 format-prefix = "  "
 format-prefix-foreground = #62FF00
-format-underline = #62FF00
 
 ################################################################################
 
@@ -1565,7 +1541,6 @@ ramp-swap-used-5-foreground = ${colors.adapta-red}
 ramp-swap-used-6-foreground = ${colors.adapta-red}
 ramp-swap-used-7-foreground = ${colors.adapta-red}
 ramp-swap-used-font = 3
-ramp-swap-used-underline = ${colors.foreground-alt}
 
 ; Available tokens:
 ;   %percentage_used% (default)
@@ -1633,7 +1608,6 @@ ramp-free-7 = █
 
 format-background = ${colors.background}
 format-foreground = ${colors.foreground}
-format-underline = ${colors.foreground-alt}
 format-padding = 1
 
 ################################################################################
@@ -1656,7 +1630,6 @@ label = %percentage_used%%
 format = Mem <label>
 format-prefix = "  "
 format-prefix-foreground = #3384d0
-format-underline = #3384d0
 format-foreground = ${colors.foreground}
 format-background = ${colors.background}
 
@@ -1680,7 +1653,6 @@ label = %gb_used%/%gb_free%
 format = Mem <label>
 format-prefix = "  "
 format-prefix-foreground = #3384d0
-format-underline = #3384d0
 format-foreground = ${colors.foreground}
 format-background = ${colors.background}
 
@@ -1725,7 +1697,6 @@ format-connected-prefix = ""
 format-connected-prefix-foreground = #FE522C
 format-connected-foreground = ${colors.foreground}
 format-connected-background = ${colors.background}
-;format-connected-underline = #62FF00
 
 ################################################################################
 
@@ -1743,7 +1714,6 @@ format-connected-prefix = ""
 format-connected-prefix-foreground = #3EC13F
 format-connected-foreground = ${colors.foreground}
 format-connected-background = ${colors.background}
-;format-connected-underline = #62FF00
 
 ################################################################################
 
@@ -1755,7 +1725,6 @@ format-foreground = ${colors.foreground}
 format-background = ${colors.background}
 format-prefix = "  "
 format-prefix-foreground = #76B900
-format-underline = #76B900
 
 ################################################################################
 
@@ -1763,13 +1732,12 @@ format-underline = #76B900
 type = custom/script
 ;exec = pacman -Qu | wc -l
 exec = checkupdates | cw -l --threads 8
-interval = 1000
+interval = 500
 label = Updates: %output%
 format-foreground = ${colors.foreground}
 format-background = ${colors.background}
 format-prefix = "  "
 format-prefix-foreground = #FFBB00
-format-underline = #FFBB00
 
 ################################################################################
 
@@ -1782,7 +1750,6 @@ tail = true
 format-foreground = ${colors.foreground}
 format-background = ${colors.background}
 format-prefix-foreground = #738adb
-format-underline = #738adb
 click-right = pamac-manager &
 click-left = pamac-manager &
 format-prefix = " "
@@ -1798,7 +1765,6 @@ click-right = exec pavucontrol
 click-left = ~/.config/polybar/scripts/pavolume.sh --togmute
 scroll-up = ~/.config/polybar/scripts/pavolume.sh --up
 scroll-down = ~/.config/polybar/scripts/pavolume.sh --down
-format-underline = #3EC13F
 format-foreground = ${colors.foreground}
 format-background = ${colors.background}
 
@@ -1813,7 +1779,6 @@ exec = ~/.config/polybar/scripts/pub-ip.sh
 interval = 100
 format-foreground = ${colors.foreground}
 format-background = ${colors.background}
-format-underline = #FFBB00
 label = %output%
 format-prefix = "  "
 format-prefix-foreground = #FFBB00
@@ -1829,7 +1794,6 @@ format-foreground = ${colors.foreground}
 format-background = ${colors.background}
 format-prefix = "  "
 format-prefix-foreground = #62FF00
-format-underline = #62FF00
 
 ################################################################################
 
@@ -1854,7 +1818,6 @@ interval = 1
 format-foreground = ${colors.foreground}
 format-background = ${colors.background}
 format-padding = 2
-format-underline = #0f0
 format-prefix = "  "
 format-prefix-foreground = #0f0
 label = %output:0:150%
@@ -1881,9 +1844,7 @@ warn-temperature = 70
 format = <ramp> <label>
 format-foreground = ${colors.foreground}
 format-background = ${colors.background}
-format-underline = #c72581
 format-warn = <ramp> <label-warn>
-format-warn-underline = #c7254f
 label = %temperature%
 label-warn =  %temperature%
 label-warn-foreground = #c7254f
@@ -1904,7 +1865,6 @@ interval = 2
 format-padding = 1
 format-foreground = ${colors.foreground}
 format-background = ${colors.background}
-format-underline = #C1B93E
 format-prefix-foreground = #C1B93E
 label =  %output:0:150:%
 
@@ -1921,7 +1881,6 @@ format-foreground = ${colors.foreground}
 format-background = ${colors.background}
 format-prefix = " "
 format-prefix-foreground = #C15D3E
-format-underline = #C15D3E
 
 ################################################################################
 
@@ -1935,7 +1894,6 @@ format-foreground = ${colors.foreground}
 format-background = ${colors.background}
 format-prefix = ""
 format-prefix-foreground = #FFFFF
-format-underline = #0084FF
 click-right = variety --preferences
 click-left = variety --selector
 
@@ -1981,7 +1939,6 @@ interval = 10
 format = <label>
 format-prefix = " "
 format-prefix-foreground = #3EC13F
-format-underline = #3EC13F
 format-foreground = ${colors.foreground}
 format-background = ${colors.background}
 exec = python -u ~/.config/polybar/scripts/weather.py
@@ -2010,13 +1967,11 @@ label-disconnected = %ifname% disconnected
 
 format-connected-foreground = ${colors.foreground}
 format-connected-background = ${colors.background}
-format-connected-underline = #55aa55
 format-connected-prefix = " "
 format-connected-prefix-foreground = #55aa55
 format-connected-prefix-background = ${colors.background}
 
 format-disconnected = <label-disconnected>
-format-disconnected-underline = ${colors.alert}
 label-disconnected-foreground = ${colors.foreground}
 
 ################################################################################
@@ -2035,7 +1990,6 @@ format-connected-background = ${colors.background}
 format-connected-prefix = "  "
 format-connected-prefix-foreground = #7e52c6
 format-connected-prefix-background = ${colors.background}
-format-connected-underline = #7e52c6
 
 label-disconnected = %ifname% disconnected
 label-disconnected-foreground = ${colors.alert}
@@ -2047,7 +2001,6 @@ format-disconnected-background = ${colors.background}
 format-disconnected-prefix = "  "
 format-disconnected-prefix-foreground = ${colors.alert}
 format-disconnected-prefix-background = ${colors.background}
-format-disconnected-underline =${colors.alert}
 
 ramp-signal-0 = ▁
 ramp-signal-1 = ▂
@@ -2068,8 +2021,6 @@ format = <label> <bar>
 format-prefix = "   "
 format-prefix-foreground = ${colors.foreground}
 format-prefix-background = ${colors.background}
-format-prefix-underline = #9f78e1
-format-underline = #9f78e1
 label = %percentage%%
 bar-width = 10
 bar-indicator = 
@@ -2094,16 +2045,13 @@ blacklist-0 = num lock
 format-prefix = " "
 format-prefix-foreground = ${colors.foreground}
 format-prefix-background = ${colors.background}
-format-prefix-underline = #3ecfb2
 format-foreground = ${colors.foreground}
 format-background = ${colors.background}
 
 label-layout = %layout%
-label-layout-underline = #3ecfb2
 label-indicator-padding = 2
 label-indicator-margin = 1
 label-indicator-background = ${colors.background}
-label-indicator-underline = ${colors.foreground}
 
 ################################################################################
 

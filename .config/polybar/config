@@ -1409,6 +1409,7 @@ label-empty-foreground = ${colors.foreground}
 label-empty-padding = 2
 format-foreground = ${colors.foreground}
 format-background = ${colors.background}
+label-active-underline= #6790eb
 
 
 ################################################################################
@@ -1731,7 +1732,7 @@ format-prefix-foreground = #76B900
 [module/pacman-updates]
 type = custom/script
 ;exec = pacman -Qu | wc -l
-exec = checkupdates | cw -l --threads 8
+exec = (sleep 5; checkupdates; checkaurupdates) | cw -l --threads 8 | grep -Eo '[0-9]{1,4}'
 interval = 500
 label = Updates: %output%
 format-foreground = ${colors.foreground}

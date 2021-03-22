@@ -7,6 +7,7 @@ alacritty
 alsa-firmware
 alsa-utils
 ant
+anydesk-bin
 apache
 appstream
 arandr
@@ -165,12 +166,14 @@ highlight
 httpie
 hw-probe
 hwinfo
+hyperfine
 inxi
 ipw2100-fw
 ipw2200-fw
 irssi
 jetbrains-toolbox
 jfsutils
+jq
 jre-openjdk
 laptop-detect
 libpwquality
@@ -249,7 +252,7 @@ openssh
 openvpn
 os-prober
 ox-bin
-p7zip-jinfeihan57-git
+p7zip
 pacman
 pamac-aur
 paper-icon-theme
@@ -319,7 +322,6 @@ spotify
 squashfs-tools
 sublime-text-dev
 sudo
-surfn-icons-git
 swi-prolog
 sxhkd
 syslinux
@@ -353,7 +355,6 @@ ttf-inconsolata
 ttf-nerd-fonts-hack-complete-git
 ttf-roboto
 ttf-ubuntu-font-family
-typespeed
 ueberzug
 unace
 unrar

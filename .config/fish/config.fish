@@ -206,9 +206,6 @@ alias probe="sudo -E hw-probe -all -upload"
 #cmatrix
 alias cmatrix="cmatrix -a"
 
-#macchina
-alias macchina="macchina -H Battery Machine DesktopEnvironment"
-
 #shutdown or reboot
 alias ssn="sudo shutdown now"
 alias sr="sudo reboot"
@@ -221,3 +218,4 @@ set PATH /home/evilscript/.local/bin $PATH
 
 #start the ssh agent
 fish_ssh_agent
+starship init fish | source

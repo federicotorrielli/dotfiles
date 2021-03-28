@@ -634,7 +634,7 @@ font-1 = "FontAwesome:size=13;0"
 font-2 = "Noto Sans:size=10;0"
 font-3 = "Noto Sans Mono:size=10;0"
 
-modules-left = pacman-updates
+modules-left = pacman-updates unread_mail
 modules-center = cpu-graph
 modules-right = discord memory1 filesystem date
 
@@ -1732,13 +1732,25 @@ format-prefix-foreground = #76B900
 [module/pacman-updates]
 type = custom/script
 ;exec = pacman -Qu | wc -l
-exec = (sleep 5; checkupdates; checkaurupdates) | cw -l --threads 8 | grep -Eo '[0-9]{1,4}'
-interval = 500
+exec = (sleep 3; checkupdates; checkaurupdates) | wc -l
+interval = 60
 label = Updates: %output%
 format-foreground = ${colors.foreground}
 format-background = ${colors.background}
 format-prefix = "  "
 format-prefix-foreground = #FFBB00
+
+################################################################################
+
+[module/unread_mail]
+type = custom/script
+format-foreground = ${colors.foreground}
+format-background = ${colors.background}
+;label-font = 2
+click-left=  thunderbird &
+format = <label>
+exec = python3 /home/evilscript/.config/polybar/scripts/UnseenMail/UnseenMail.py
+interval = 100
 
 ################################################################################
 

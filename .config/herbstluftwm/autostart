@@ -343,6 +343,7 @@ run volumeicon &
 protonmail-bridge --no-window &
 birdtray &
 nextcloud --background &
+ipfs daemon &
 # jetbrains-toolbox &
 # thunar &
 # dropbox &

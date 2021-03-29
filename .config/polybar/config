@@ -1749,7 +1749,7 @@ format-background = ${colors.background}
 ;label-font = 2
 click-left=  thunderbird &
 format = <label>
-exec = python3 /home/evilscript/.config/polybar/scripts/UnseenMail/UnseenMail.py
+exec = sleep 3 && python3 /home/evilscript/.config/polybar/scripts/UnseenMail/UnseenMail.py
 interval = 100
 
 ################################################################################

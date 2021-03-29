@@ -1,6 +1,6 @@
 # EvilScript/dotfiles
 
-![Screenshot](https://i.imgur.com/mx1RIoC.png)
+![Screenshot](https://i.ibb.co/7RX8VB9/Arco-Linux-2021-03-29-1617013710-screenshot-3840x1080.jpg)
 
 ## About
 My dotfile organization repository! Here you can find all the wonders of my magical config for my daily driver.

@@ -28,7 +28,7 @@ super + F7
     virtualbox
 
 super + F8
-    thunar
+    nautilus
 
 super + F9
     alacritty -e nvim
@@ -93,12 +93,12 @@ super + Escape
 
 #File-Manager
 super + shift + Return
-	thunar
+	nautilus
 
 Keyboard dependent
 #File-Manager
 #super + shift + KP_Enter
-#	thunar
+#	nautilus
 
 #rofi
 super + shift + d
@@ -110,7 +110,7 @@ super + shift + s
 
 #Keyboard dependent
 #super + shift + KP_Enter
-#	thunar
+#	nautilus
 
 
 #################################################################
@@ -135,7 +135,7 @@ ctrl + alt + Prior
 
 #File-Manager
 ctrl + alt + b
-     thunar
+     nautilus
 
 #Firefox
 ctrl + alt + f

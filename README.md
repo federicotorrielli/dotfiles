@@ -13,7 +13,7 @@ My dotfile organization repository! Here you can find all the wonders of my magi
 - Terminal: Nord-Alacritty
 - Text Editor: SpaceVim
 - Shell: 🐟
-- File Manager: Thunar or ranger
+- File Manager: Nautilus or ranger
 - Icon Theme: Papirus (Dark)
 - App Launcher: Rofi (with custom Nord colors)
 - Firefox start: [Bento](https://github.com/federicotorrielli/Bento)

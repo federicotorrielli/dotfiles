@@ -277,7 +277,7 @@ hc rule class=vlc pseudotile=on
 hc rule class=jetbrains-toolbox floating=on
 hc rule class=balena-etcher floating=on
 hc rule class='mpv' floating=on
-hc rule instance=simplescreenrecorder floating=on
+hc rule class='dragon' floating=on
 hc rule instance=Dialog floating=on
 hc rule windowrole=xfce4-terminal-dropdown floating=on
 

@@ -328,10 +328,7 @@ xsetroot -cursor_name left_ptr &
 sxhkd -c ~/.config/herbstluftwm/sxhkd/sxhkdrc &
 
 dex $HOME/.config/autostart/arcolinux-welcome-app.desktop
-#feh --bg-scale ~/.config/herbstluftwm/wall.png &
 feh --bg-fill /home/evilscript/Pictures/bg.png &
-#feh --bg-scale /usr/share/backgrounds/arcolinux/abstract-warm-heart-4560x2160.jpg
-conky -c $HOME/.config/herbstluftwm/system-overview &
 nm-applet &
 #pamac-tray &
 xfce4-power-manager &

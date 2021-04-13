@@ -77,6 +77,15 @@ case $desktop in
     	polybar --reload mainbar-herbstluftwm-extra -c ~/.config/polybar/config &
     	polybar --reload mainbar-herbstluftwm -c ~/.config/polybar/config &
     fi
+
+    ;;
+
+    leftwm|/usr/share/xsessions/leftwm)
+    if type 'xrandr' > /dev/null; then
+    	polybar --reload mainbar-herbstluftwm-extra -c ~/.config/polybar/config &
+    	polybar --reload mainbar-herbstluftwm -c ~/.config/polybar/config &
+    fi
+
     #if type "xrandr" > /dev/null; then
     #  for m in $(xrandr --query | grep " connected" | cut -d" " -f1); do
     #    MONITOR=$m polybar --reload mainbar-herbstluftwm -c ~/.config/polybar/config &

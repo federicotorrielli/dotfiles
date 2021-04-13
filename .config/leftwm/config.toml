@@ -35,9 +35,15 @@ key = "r"
 
 [[keybind]]
 command = "Execute"
-value = "pkill leftwm"
-modifier = ["modkey", "Shift"]
+value = "arcolinux-logout"
+modifier = ["modkey"]
 key = "x"
+
+[[keybind]]
+command = "Execute"
+value = "nautilus"
+modifier = ["modkey", "Shift"]
+key = "Return"
 
 [[keybind]]
 command = "Execute"
@@ -207,3 +213,27 @@ command = "MoveToTag"
 value = "9"
 modifier = ["modkey", "Shift"]
 key = "9"
+
+[[keybind]]
+command = "Execute"
+value = "playerctl play-pause"
+modifier = []
+key = "XF86XK_AudioPlay"
+
+[[keybind]]
+command = "Execute"
+value = "playerctl next"
+modifier = []
+key = "XF86XK_AudioNext"
+
+[[keybind]]
+command = "Execute"
+value = "playerctl previous"
+modifier = []
+key = "XF86XK_AudioPrev"
+
+[[keybind]]
+command = "Execute"
+value = "playerctl stop"
+modifier = []
+key = "XF86XK_AudioStop"

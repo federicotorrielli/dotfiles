@@ -249,3 +249,9 @@ command = "Execute"
 value = "setxkbmap gb"
 modifier = ["modkey", "Control"]
 key = "i"
+
+[[keybind]]
+command = "Execute"
+value = "flameshot gui"
+modifier = ["Control"]
+key = "Print"

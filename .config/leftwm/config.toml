@@ -237,3 +237,15 @@ command = "Execute"
 value = "playerctl stop"
 modifier = []
 key = "XF86XK_AudioStop"
+
+[[keybind]]
+command = "Execute"
+value = "setxkbmap it"
+modifier = ["modkey", "Shift"]
+key = "i"
+
+[[keybind]]
+command = "Execute"
+value = "setxkbmap gb"
+modifier = ["modkey", "Control"]
+key = "i"

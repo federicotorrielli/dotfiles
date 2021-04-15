@@ -37,9 +37,6 @@ alias fgrep='fgrep --color=auto'
 #readable output
 alias df='df -h'
 
-#delta diff
-alias diff='delta'
-
 #printer
 alias print='lp -d HP_ENVY_5530_series'
 

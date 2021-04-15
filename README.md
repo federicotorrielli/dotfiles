@@ -1,16 +1,17 @@
 # EvilScript/dotfiles
 
-![Screenshot](https://i.ibb.co/7RX8VB9/Arco-Linux-2021-03-29-1617013710-screenshot-3840x1080.jpg)
+![Screenshot-Herbstluftwm](https://i.ibb.co/7RX8VB9/Arco-Linux-2021-03-29-1617013710-screenshot-3840x1080.jpg)
+![Screenshot-LeftWM](https://i.imgur.com/Y8pTD3u.jpg)
 
 ## About
 My dotfile organization repository! Here you can find all the wonders of my magical config for my daily driver.
 
 ## Specs
-- WM: Herbstluftwm
+- WM: Herbstluftwm || LeftWM
 - OS: ArcoLinuxD
 - Status bar: Polybar
 - Notifications: Dunst
-- Terminal: Nord-Alacritty
+- Terminal: Nord-Alacritty || st
 - Text Editor: SpaceVim
 - Shell: 🐟
 - File Manager: Nautilus or ranger

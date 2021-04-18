@@ -11,7 +11,7 @@ My dotfile organization repository! Here you can find all the wonders of my magi
 - OS: ArcoLinuxD
 - Status bar: Polybar
 - Notifications: Dunst
-- Terminal: Nord-Alacritty || st
+- Terminal: Nord-Alacritty || st (with the libxft-bgra package fix)
 - Text Editor: SpaceVim
 - Shell: 🐟
 - File Manager: Nautilus or ranger

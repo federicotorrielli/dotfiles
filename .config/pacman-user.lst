@@ -8,7 +8,6 @@ dtrx
 fortune-mod-cybersuntzu
 glib
 handlr-bin
-howdoi
 keep
 leftwm
 leftwm-theme-git
@@ -18,7 +17,6 @@ ox-bin
 peerflix
 perl-parse-exuberantctags
 pfetch-git
-pipes-rs-git
 python-cachelib
 python-pillow-simd
 qimgv
@@ -26,7 +24,6 @@ reflector-mirrorlist-update
 rm-improved
 rolldice
 sddm-sugar-dark
-shellcheck-bin
 st-distrotube-git
 tealdeer
 termcap

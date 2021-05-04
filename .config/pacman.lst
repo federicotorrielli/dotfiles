@@ -171,7 +171,6 @@ hefftor-mirrors-git
 herbstluftwm
 heroku-cli-bin
 highlight
-howdoi
 httpie
 hw-probe
 hwinfo
@@ -284,7 +283,6 @@ php7-apache
 phpldapadmin
 picom
 pinta
-pipes-rs-git
 pkgconf
 playerctl
 polkit
@@ -330,7 +328,6 @@ sdparm
 sed
 sg3_utils
 sharutils
-shellcheck-bin
 simple-scan
 skypeforlinux-stable-bin
 smartmontools

@@ -8,16 +8,13 @@ dtrx
 fortune-mod-cybersuntzu
 glib
 handlr-bin
-keep
-leftwm
-leftwm-theme-git
 libxft-bgra
+macchina
 nerd-fonts-mononoki
 ox-bin
 peerflix
 perl-parse-exuberantctags
 pfetch-git
-python-cachelib
 python-pillow-simd
 qimgv
 reflector-mirrorlist-update
@@ -30,4 +27,6 @@ termcap
 torrentflix
 ttf-nerd-fonts-hack-complete-git
 xdg-utils-handlr
+xfce-polkit
 yadm-git
+youtube-dlp

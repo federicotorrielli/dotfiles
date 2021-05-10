@@ -13,7 +13,7 @@ key = "p"
 
 [[keybind]]
 command = "Execute"
-value = "st"
+value = "alacritty"
 modifier = ["modkey"]
 key = "t"
 

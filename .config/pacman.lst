@@ -30,6 +30,7 @@ arcolinux-lightdm-gtk-greeter-settings
 arcolinux-local-xfce4-git
 arcolinux-mirrorlist-git
 arcolinux-neofetch-git
+arcolinux-paru-git
 arcolinux-pipemenus-git
 arcolinux-polybar-git
 arcolinux-root-git
@@ -52,7 +53,6 @@ awesome-terminal-fonts
 base
 bash-completion
 bat
-bibata-cursor-theme-bin
 bind
 binutils
 birdtray
@@ -88,6 +88,7 @@ dash
 dashbinsh
 dconf-editor
 ddrescue
+debtap
 devtools
 dex
 dhclient
@@ -132,6 +133,7 @@ font-manager-git
 fortune-mod-cybersuntzu
 fsarchiver
 fzf
+garuda-downloader-git
 gawk
 gcc
 gettext
@@ -207,6 +209,7 @@ lxappearance
 lxqt-arc-dark-theme-git
 lxrandr
 m4
+macchina
 make
 man-db
 man-pages
@@ -274,7 +277,7 @@ papirus-icon-theme
 partclone
 parted
 partimage
-paru
+paru-bin
 patch
 pavucontrol
 perl-parse-exuberantctags
@@ -329,13 +332,13 @@ sed
 sg3_utils
 sharutils
 simple-scan
-skypeforlinux-stable-bin
 smartmontools
 speedtest-cli
 spicetify-cli
 spotify
 squashfs-tools
 st-distrotube-git
+stremio
 sublime-text-dev
 sudo
 swi-prolog
@@ -349,7 +352,6 @@ teamviewer
 telegram-desktop
 termcap
 terminus-font
-termite
 testdisk
 texinfo
 the_platinum_searcher-bin
@@ -357,12 +359,12 @@ thunderbird
 timeshift
 tk
 tmux
-topgrade
 torrentflix
 trizen
 ttf-bitstream-vera
 ttf-dejavu
 ttf-droid
+ttf-fira-code
 ttf-hack
 ttf-hanazono
 ttf-inconsolata
@@ -415,6 +417,7 @@ xf86-video-nouveau
 xf86-video-openchrome
 xf86-video-vesa
 xf86-video-vmware
+xfce-polkit
 xfce4-appfinder
 xfce4-notifyd
 xfce4-power-manager
@@ -460,11 +463,12 @@ xorg-xvinfo
 xorg-xwd
 xorg-xwininfo
 xorg-xwud
+xournalpp
 xtitle-git
 yad
 yadm-git
 yay-bin
-youtube-dl
+youtube-dlp
 zathura
 zathura-cb
 zathura-djvu

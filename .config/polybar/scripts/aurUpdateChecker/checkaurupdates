@@ -1,0 +1,93 @@
+#!/bin/bash
+# SPDX-License-Identifier: MIT
+# Copyright (c) 2020 Michael Straube
+
+#
+# Description: Show AUR updates in the style of checkupdates
+# Dependencies: pacman curl jq
+#
+
+download_aur_pkglist() {
+	if curl -fSs "https://aur.archlinux.org/packages.gz" | gzip -d - > "$1"; then
+		# remove date line
+		sed -i '1d' "$1"
+	else
+		printf "Downloding AUR package list failed\n"
+		cleaup 1
+	fi
+}
+
+get_query_urls() {
+	local url
+	local rpc="https://aur.archlinux.org/rpc.php?v=5&type=info"
+	local split=150 # do not exceed max query url size
+	local i=0
+
+	for pkg in "$@"; do
+		if ((i == 0)); then
+			printf -v url "%s&arg[]=%s" "$rpc" "$pkg"
+		elif ((i % split == 0)); then
+			printf -v url "%s\n%s&arg[]=%s" "$url" "$rpc" "$pkg"
+		else
+			printf -v url "%s&arg[]=%s" "$url" "$pkg"
+		fi
+		i=$((i + 1))
+	done
+	printf "%s\n" "$url"
+}
+
+cleanup() {
+	rm -r "$tmpdir"
+	exit "$1"
+}
+
+if ! type -p jq >/dev/null; then
+	printf "jq binary not found\n"
+	exit 1
+fi
+
+if ! tmpdir=$(mktemp -d -t checkaurupdates.XXXXXXXX); then
+	printf "Failed to create temp directory\n"
+	exit 1
+fi
+
+pkglist="$tmpdir/pkglist"
+
+download_aur_pkglist "$pkglist"
+mapfile -t installed_aur_packages < <(comm -12 <(sort "$pkglist") <(sort <(pacman -Qq)))
+mapfile -t query_urls < <(get_query_urls "${installed_aur_packages[@]}")
+
+# Create lookup array for local package versions
+declare -A local_packages
+while read -r pkgname pkgver; do
+	local_packages["$pkgname"]="$pkgver"
+done < <(pacman -Q "${installed_aur_packages[@]}")
+
+# Get package versions for installed AUR packages
+for url in "${query_urls[@]}"; do
+	json="$(curl -fSs --globoff "$url")" || cleanup 1
+	mapfile -t -O "${#aur_packages[@]}"  aur_packages < <(jq -r '.results[] | .Name + " " + .Version' <<< "$json")
+done
+
+# Now we have array 'local_packages' to lookup local package versions and array 'aur_packages'
+# with all installed packages from AUR that looks like this: ('name version' 'name version' ...)
+
+for pkg in "${aur_packages[@]}"; do
+	pkgname="${pkg/ *}"
+	aur_version="${pkg/* }"
+	local_version="${local_packages[$pkgname]}"
+
+	[[ "$local_version" == "$aur_version" ]] && continue
+
+	ret="$(vercmp "$local_version" "$aur_version")"
+	((ret < 0)) && updates+=("aur/$pkgname $local_version -> $aur_version")
+done
+
+if (( ${#updates[@]} )); then
+	printf "%s\n" "${updates[@]}"
+else
+    cleanup 2
+fi
+
+cleanup 0
+

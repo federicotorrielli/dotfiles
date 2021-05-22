@@ -1731,10 +1731,9 @@ format-prefix-foreground = #76B900
 
 [module/pacman-updates]
 type = custom/script
-;exec = pacman -Qu | wc -l
-exec = (sleep 3; checkupdates; checkaurupdates) | wc -l
-interval = 60
-label = Updates: %output%
+exec = python3 ~/.config/polybar/scripts/aurUpdateChecker/main.py
+interval = 500
+label =  %output%
 format-foreground = ${colors.foreground}
 format-background = ${colors.background}
 format-prefix = "  "

@@ -1,7 +1,7 @@
 # EvilScript/dotfiles
 
 ![Screenshot-Herbstluftwm](https://i.ibb.co/7RX8VB9/Arco-Linux-2021-03-29-1617013710-screenshot-3840x1080.jpg)
-![Screenshot-LeftWM](https://i.imgur.com/Y8pTD3u.jpg)
+![Screenshot-LeftWM](https://i.imgur.com/OquKvIU.jpg)
 
 ## About
 My dotfile organization repository! Here you can find all the wonders of my magical config for my daily driver.
@@ -12,7 +12,7 @@ My dotfile organization repository! Here you can find all the wonders of my magi
 - Status bar: Polybar
 - Notifications: Dunst
 - Terminal: Nord-Alacritty || st (with the libxft-bgra package fix)
-- Text Editor: SpaceVim
+- Text Editor: LunarVim
 - Shell: 🐟
 - File Manager: Nautilus or ranger
 - Icon Theme: Papirus (Dark)

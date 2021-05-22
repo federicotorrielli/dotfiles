@@ -215,3 +215,4 @@ set PATH /home/evilscript/.local/bin $PATH
 #start the ssh agent
 fish_ssh_agent
 starship init fish | source
+cbonsai -p

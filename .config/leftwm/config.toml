@@ -255,3 +255,15 @@ command = "Execute"
 value = "flameshot gui"
 modifier = ["Control"]
 key = "Print"
+
+[[keybind]]
+command = "Execute"
+value = "alacritty -e ranger"
+modifier = ["modkey"]
+key = "F1"
+
+[[keybind]]
+command = "Execute"
+value = "alacritty -e btm"
+modifier = ["modkey"]
+key = "F2"

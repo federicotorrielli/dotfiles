@@ -1,21 +1,21 @@
 # EvilScript/dotfiles
 
-![Screenshot-Herbstluftwm](https://i.ibb.co/7RX8VB9/Arco-Linux-2021-03-29-1617013710-screenshot-3840x1080.jpg)
 ![Screenshot-LeftWM](https://i.imgur.com/OquKvIU.jpg)
 
 ## About
 My dotfile organization repository! Here you can find all the wonders of my magical config for my daily driver.
 
 ## Specs
-- WM: Herbstluftwm || LeftWM
+- WM: Herbstluftwm or LeftWM
 - OS: ArcoLinuxD
 - Status bar: Polybar
 - Notifications: Dunst
-- Terminal: Nord-Alacritty || st (with the libxft-bgra package fix)
+- Terminal: Nord-Alacritty or st (with the libxft-bgra package fix)
 - Text Editor: LunarVim
 - Shell: 🐟
 - File Manager: Nautilus or ranger
-- Icon Theme: Papirus (Dark)
+- Icon Theme: Tela-Dark
+- GTK-3.0: Orchis-Dark
 - App Launcher: Rofi (with custom Nord colors)
 - Firefox start: [Bento](https://github.com/federicotorrielli/Bento)
   || I decided to fork it and update it by myself from now on, so you will notice differencies in the near future

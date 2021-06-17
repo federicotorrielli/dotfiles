@@ -25,9 +25,8 @@ alias 7zarchive='7z a archiv.7z -m1=lz4 -mx22'
 #set bat as manpager
 set -x MANPAGER "sh -c 'col -bx | bat -l man -p'"
 
-#gotop
-alias gtop='btm'
-alias top='btm'
+#bpytop
+alias top='bpytop'
 
 #colorize the grep command output for ease of use (good for log files)##
 alias grep='grep --color=auto'
@@ -37,12 +36,11 @@ alias fgrep='fgrep --color=auto'
 #readable output
 alias df='df -h'
 
+#show my external ip
+alias myip='dig +short myip.opendns.com @resolver1.opendns.com'
+
 #printer
 alias print='lp -d HP_ENVY_5530_series'
-
-#aliasing protege
-alias protege='/home/evilscript/Apps/Protege-5.5.0/run.sh'
-alias graphdb='/home/evilscript/Apps/graphdb-se-9.5.0/bin/graphdb'
 
 #pacman unlock
 alias unlock="sudo rm /var/lib/pacman/db.lck"
@@ -135,9 +133,6 @@ alias mirrora="sudo reflector --latest 50 --number 20 --sort age --save /etc/pac
 alias mirrorx="sudo reflector --age 6 --latest 20 --fastest 20 --threads 20 --sort rate -c it,fr --protocol https --save /etc/pacman.d/mirrorlist"
 alias mirrorr="rate-arch-mirrors | sudo tee /etc/pacman.d/mirrorlist"
 
-#mounting the folder Public for exchange between host and guest on virtualbox
-alias vbm="sudo /usr/local/bin/arcolinux-vbox-share"
-
 #user installed packages and dependencies (fish edition)
 alias uipd='pacman -Qqe | grep -v "(pacman -Qqm)" > pacman.lst'
 #user installed packages w/o dependencies
@@ -217,3 +212,5 @@ fish_ssh_agent
 starship init fish | source
 zoxide init fish | source
 cbonsai -p
+
+alias cd=z

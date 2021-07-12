@@ -11,14 +11,14 @@
 # style_1     style_2     style_3     style_4     style_5     style_6
 # style_7     style_8     style_9     style_10    style_11    style_12
 
-theme="style_8"
+theme="style_7"
 dir="$HOME/.config/rofi/launchers/colorful"
 
 # dark
-ALPHA="#2e3440"
-BG="#2e3440"
-FG="#d8dee9"
-SELECT="#434c5e"
+ALPHA="#3b4252"
+BG="#3b4252"
+FG="#FFFFFFff"
+SELECT="#d8dee9"
 
 # light
 #ALPHA="#00000000"
@@ -29,8 +29,7 @@ SELECT="#434c5e"
 # accent colors
 COLORS=('#EC7875' '#61C766' '#FDD835' '#42A5F5' '#BA68C8' '#4DD0E1' '#00B19F' \
 		'#FBC02D' '#E57C46' '#AC8476' '#6D8895' '#EC407A' '#B9C244' '#6C77BB')
-# ACCENT="${COLORS[$(( $RANDOM % 14 ))]}ff"
-ACCENT="#5e81ac" # I disabled the random colors and enabled only nord
+ACCENT="${COLORS[$(( $RANDOM % 14 ))]}ff"
 
 # overwrite colors file
 cat > $dir/colors.rasi <<- EOF

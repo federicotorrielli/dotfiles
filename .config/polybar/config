@@ -634,7 +634,7 @@ font-1 = "FontAwesome:size=13;0"
 font-2 = "Noto Sans:size=10;0"
 font-3 = "Noto Sans Mono:size=10;0"
 
-modules-left = pacman-updates unread_mail
+modules-left = coronavirus unread_mail
 modules-center = cpu-graph
 modules-right = discord memory1 filesystem date
 
@@ -1212,6 +1212,14 @@ animation-charging-3 = 
 animation-charging-4 = 
 animation-charging-foreground = #a3c725
 animation-charging-framerate = 750
+
+################################################################################
+
+[module/coronavirus]
+type = custom/script
+interval = 10000
+format = 🦠
+exec = python3 ~/.config/polybar/scripts/coronaWidget.py italy
 
 ################################################################################
 

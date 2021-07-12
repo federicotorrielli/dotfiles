@@ -38,6 +38,7 @@ alias df='df -h'
 
 #show my external ip
 alias myip='dig +short myip.opendns.com @resolver1.opendns.com'
+alias mydns='dig evilscript.altervista.org | grep ";; SERVER"'
 
 #printer
 alias print='lp -d HP_ENVY_5530_series'

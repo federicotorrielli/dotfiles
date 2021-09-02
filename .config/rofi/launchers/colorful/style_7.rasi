@@ -97,12 +97,16 @@ element {
 element-icon {
     size:                           24px;
     border:                         0px;
+    background-color:               inherit;
+    text-color:                     inherit;
 }
 
 element-text {
     expand:                         true;
     horizontal-align:               0;
     vertical-align:                 0.5;
+    background-color:               inherit;
+    text-color:                     inherit;
     margin:                         0% 0.25% 0% 0.25%;
 }
 

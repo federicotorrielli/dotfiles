@@ -28,6 +28,9 @@ set -x MANPAGER "sh -c 'col -bx | bat -l man -p'"
 #bpytop
 alias top='bpytop'
 
+#remove and uninstall neovim config
+alias rmnvim='rm -rf ~/.config/nvim/ ~/.cache/nvim ~/.local/share/nvim/ ~/.local/share/lunarvim/ ~/.config/lvim/'
+
 #colorize the grep command output for ease of use (good for log files)##
 alias grep='grep --color=auto'
 alias egrep='egrep --color=auto'

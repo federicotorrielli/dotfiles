@@ -13,7 +13,7 @@ key = "p"
 
 [[keybind]]
 command = "Execute"
-value = "alacritty"
+value = "st"
 modifier = ["modkey"]
 key = "t"
 
@@ -258,12 +258,12 @@ key = "Print"
 
 [[keybind]]
 command = "Execute"
-value = "alacritty -e ranger"
+value = "st -e ranger"
 modifier = ["modkey"]
 key = "F1"
 
 [[keybind]]
 command = "Execute"
-value = "alacritty -e btm"
+value = "st -e btm"
 modifier = ["modkey"]
 key = "F2"

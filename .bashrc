@@ -14,6 +14,8 @@
 
 export HISTCONTROL=ignoreboth:erasedups
 
+export PATH=~/.npm-global/bin:$PATH
+
 PS1='[\u@\h \W]\$ '
 
 if [ -d "$HOME/.bin" ] ;

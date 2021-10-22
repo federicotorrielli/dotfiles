@@ -1,16 +1,14 @@
 /*
  *
  * Author  : Aditya Shakya
- * Mail    : adi1090x@gmail.com
- * Github  : @adi1090x
- * Twitter : @adi1090x
+ * Fixed and customized by: Federico "EvilScript" Torrielli
  *
  */
 
 configuration {
-	font:							"Iosevka Nerd Font 10";
+	font:							"Dank Mono 10";
     show-icons:                     true;
-	icon-theme: 					"Papirus";
+	icon-theme: 					"Tela Circle";
     display-drun: 					"";
     drun-display-format:            "{name}";
     disable-history:                false;

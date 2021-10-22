@@ -81,6 +81,7 @@ _G.packer_plugins = {
     config = { "\27LJ\1\2=\0\0\2\0\3\0\0064\0\0\0%\1\1\0>\0\2\0027\0\2\0>\0\1\1G\0\1\0\nsetup\20core.bufferline\frequire\0" },
     loaded = false,
     needs_bufread = false,
+    only_cond = false,
     path = "/home/evilscript/.local/share/lunarvim/site/pack/packer/opt/barbar.nvim"
   },
   ["cmp-buffer"] = {
@@ -107,6 +108,7 @@ _G.packer_plugins = {
     config = { "\27LJ\1\2<\0\0\2\0\3\0\0064\0\0\0%\1\1\0>\0\2\0027\0\2\0>\0\1\1G\0\1\0\nsetup\19core.dashboard\frequire\0" },
     loaded = false,
     needs_bufread = false,
+    only_cond = false,
     path = "/home/evilscript/.local/share/lunarvim/site/pack/packer/opt/dashboard-nvim"
   },
   ["friendly-snippets"] = {
@@ -117,6 +119,7 @@ _G.packer_plugins = {
     config = { "\27LJ\1\2;\0\0\2\0\3\0\0064\0\0\0%\1\1\0>\0\2\0027\0\2\0>\0\1\1G\0\1\0\nsetup\18core.gitsigns\frequire\0" },
     loaded = false,
     needs_bufread = false,
+    only_cond = false,
     path = "/home/evilscript/.local/share/lunarvim/site/pack/packer/opt/gitsigns.nvim"
   },
   ["lualine.nvim"] = {
@@ -148,6 +151,7 @@ _G.packer_plugins = {
     config = { "\27LJ\1\2:\0\0\2\0\3\0\0064\0\0\0%\1\1\0>\0\2\0027\0\2\0>\0\1\1G\0\1\0\nsetup\17core.comment\frequire\0" },
     loaded = false,
     needs_bufread = false,
+    only_cond = false,
     path = "/home/evilscript/.local/share/lunarvim/site/pack/packer/opt/nvim-comment"
   },
   ["nvim-lspconfig"] = {
@@ -158,6 +162,7 @@ _G.packer_plugins = {
     config = { "\27LJ\1\2=\0\0\2\0\3\0\0064\0\0\0%\1\1\0>\0\2\0027\1\2\0>\1\1\1G\0\1\0\nsetup\20core.lspinstall\frequire\0" },
     loaded = false,
     needs_bufread = false,
+    only_cond = false,
     path = "/home/evilscript/.local/share/lunarvim/site/pack/packer/opt/nvim-lspinstall"
   },
   ["nvim-tree.lua"] = {
@@ -200,12 +205,14 @@ _G.packer_plugins = {
     config = { "\27LJ\1\2;\0\0\2\0\3\0\0064\0\0\0%\1\1\0>\0\2\0027\0\2\0>\0\1\1G\0\1\0\nsetup\18core.terminal\frequire\0" },
     loaded = false,
     needs_bufread = false,
+    only_cond = false,
     path = "/home/evilscript/.local/share/lunarvim/site/pack/packer/opt/toggleterm.nvim"
   },
   ["which-key.nvim"] = {
     config = { "\27LJ\1\2<\0\0\2\0\3\0\0064\0\0\0%\1\1\0>\0\2\0027\0\2\0>\0\1\1G\0\1\0\nsetup\19core.which-key\frequire\0" },
     loaded = false,
     needs_bufread = false,
+    only_cond = false,
     path = "/home/evilscript/.local/share/lunarvim/site/pack/packer/opt/which-key.nvim"
   }
 }

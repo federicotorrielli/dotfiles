@@ -215,6 +215,11 @@ set PATH /home/evilscript/.local/bin $PATH
 fish_ssh_agent
 starship init fish | source
 zoxide init fish | source
-cbonsai -p
-
 alias cd=z
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+eval /opt/miniconda/bin/conda "shell.fish" "hook" $argv | source
+# <<< conda initialize <<<
+
+cbonsai -p

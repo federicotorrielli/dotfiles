@@ -7,6 +7,9 @@ alias la='ls -a'
 alias lla='ls -la'
 alias lt='ls --tree'
 
+#xcp instead of cp
+alias cp='xcp'
+
 #bat instead of cat
 alias cat='bat'
 
@@ -22,6 +25,9 @@ alias upqll='paru'
 #7z instead of unzip
 alias 7zarchive='7z a archiv.7z -m1=lz4 -mx22'
 
+#git-delta instead of diff
+alias diff='delta'
+
 #set bat as manpager
 set -x MANPAGER "sh -c 'col -bx | bat -l man -p'"
 
@@ -35,6 +41,9 @@ alias rmnvim='rm -rf ~/.config/nvim/ ~/.cache/nvim ~/.local/share/nvim/ ~/.local
 alias grep='grep --color=auto'
 alias egrep='egrep --color=auto'
 alias fgrep='fgrep --color=auto'
+
+#wolframalpha
+alias wa='tungsten'
 
 #readable output
 alias df='df -h'

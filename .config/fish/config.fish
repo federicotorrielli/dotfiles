@@ -50,7 +50,7 @@ alias df='df -h'
 
 #show my external ip
 alias myip='dig +short myip.opendns.com @resolver1.opendns.com'
-alias mydns='dig evilscript.altervista.org | grep ";; SERVER"'
+alias mydns='dig evilscript.altervista.org | grep ";; SERVER" | cut -d "(" -f2 | cut -d ")" -f1'
 
 #printer
 alias print='lp -d HP_ENVY_5530_series'
@@ -181,6 +181,9 @@ alias jctl="journalctl -p 3 -xb"
 
 #roll a 6 dice
 alias roll="rolldice 6"
+
+#know your bios version!
+alias biosversion="sudo dmidecode -t bios | grep 'Version' | cut -d ' ' -f 2" 
 
 #nano for important configuration files
 #know what you do in these files

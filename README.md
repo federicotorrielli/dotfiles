@@ -7,14 +7,14 @@ My dotfile organization repository! Here you can find all the wonders of my magi
 
 ## Specs
 - WM: LeftWM
-- OS: ArcoLinuxD
+- OS: ArcoLinux
 - Status bar: Polybar
 - Notifications: Dunst
 - Terminal: [Siduck's st](https://github.com/siduck/st) (with the libxft-bgra package fix)
 - Text Editor: LunarVim
 - Shell: 🐟
 - File Manager: Nautilus or ranger
-- Icon Theme: Tela-Dark
+- Icon Theme: Flatery-dark
 - GTK-3.0: Orchis-Dark
 - Compositor: picom-ibhagwan-git (with my custom config)
 - App Launcher: Rofi (with custom Nord colors)

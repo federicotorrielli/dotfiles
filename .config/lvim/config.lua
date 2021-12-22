@@ -104,5 +104,6 @@ lvim.lsp.automatic_servers_installation = true
 -- Additional Plugins
 lvim.plugins = {
   {'github/copilot.vim'},
+  {'ellisonleao/glow.nvim'},
 }
 

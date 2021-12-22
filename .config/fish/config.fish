@@ -53,7 +53,7 @@ alias myip='dig +short myip.opendns.com @resolver1.opendns.com'
 alias mydns='dig evilscript.altervista.org | grep ";; SERVER" | cut -d "(" -f2 | cut -d ")" -f1'
 
 #printer
-alias print='lp -d HP_ENVY_5530_series'
+alias print='lp -d Brother_HL-L3270CDW_series'
 
 #pacman unlock
 alias unlock="sudo rm /var/lib/pacman/db.lck"

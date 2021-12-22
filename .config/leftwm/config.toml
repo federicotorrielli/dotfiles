@@ -47,9 +47,9 @@ key = "Return"
 
 [[keybind]]
 command = "Execute"
-value = "slock"
-modifier = ["modkey", "Control"]
-key = "l"
+value = "nautilus"
+modifier = ["modkey"]
+key = "n"
 
 [[keybind]]
 command = "MoveToLastWorkspace"
@@ -264,6 +264,12 @@ key = "F1"
 
 [[keybind]]
 command = "Execute"
-value = "st -e btm"
+value = "st -e bpytop"
 modifier = ["modkey"]
 key = "F2"
+
+[[keybind]]
+command = "Execute"
+value = "change_dns.sh"
+modifier = ["modkey"]
+key = "F3"

@@ -273,3 +273,9 @@ command = "Execute"
 value = "change_dns.sh"
 modifier = ["modkey"]
 key = "F3"
+
+[[keybind]]
+command = "Execute"
+value = "emoji-picker"
+modifier = ["modkey"]
+key = "F4"

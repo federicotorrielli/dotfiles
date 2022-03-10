@@ -102,7 +102,7 @@ lvim.builtin.treesitter.highlight.enabled = true
 -- end
 
 -- -- set a formatter, this will override the language server formatting capabilities (if it exists)
-local formatters = require "lvim.lsp.null-ls.formatters"
+-- local formatters = require "lvim.lsp.null-ls.formatters"
 -- formatters.setup {
 --   { command = "black", filetypes = { "python" } },
 --   { command = "isort", filetypes = { "python" } },
@@ -136,9 +136,13 @@ local formatters = require "lvim.lsp.null-ls.formatters"
 -- }
 
 -- Additional Plugins
-lvim.plugins = {
-  {"github/copilot.vim"},
-}
+-- lvim.plugins = {
+--     {"folke/tokyonight.nvim"},
+--     {
+--       "folke/trouble.nvim",
+--       cmd = "TroubleToggle",
+--     },
+-- }
 
 -- Autocommands (https://neovim.io/doc/user/autocmd.html)
 -- lvim.autocommands.custom_groups = {

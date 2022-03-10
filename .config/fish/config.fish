@@ -139,7 +139,6 @@ alias mirrord="sudo reflector --latest 50 --number 20 --sort delay --save /etc/p
 alias mirrors="sudo reflector --latest 50 --number 20 --sort score --save /etc/pacman.d/mirrorlist"
 alias mirrora="sudo reflector --latest 50 --number 20 --sort age --save /etc/pacman.d/mirrorlist"
 alias mirrorx="sudo reflector --age 6 --latest 20 --fastest 20 --threads 20 --sort rate -c it,fr --protocol https --save /etc/pacman.d/mirrorlist"
-alias mirrorr="rate-arch-mirrors | sudo tee /etc/pacman.d/mirrorlist"
 
 #user installed packages and dependencies (fish edition)
 alias uipd='pacman -Qqe | grep -v "(pacman -Qqm)" > pacman.lst'
@@ -223,10 +222,5 @@ fish_ssh_agent
 starship init fish | source
 zoxide init fish | source
 alias cd=z
-
-# >>> conda initialize >>>
-# !! Contents within this block are managed by 'conda init' !!
-eval /opt/miniconda/bin/conda "shell.fish" "hook" $argv | source
-# <<< conda initialize <<<
 
 cbonsai -p

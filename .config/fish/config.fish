@@ -80,7 +80,6 @@ alias merge="xrdb -merge ~/.Xresources"
 #aliases for software managment
 # pacman or pm
 alias pacman='sudo pacman --color auto'
-alias update='topgrade'
 
 # paru as aur helper - updates everything
 alias pksyua="paru"
@@ -170,6 +169,8 @@ alias iso="cat /etc/dev-rel | awk -F '=' '/ISO/ {print $2}'"
 #cleanup orphaned packages
 alias cleanup='sudo pacman -Rns (pacman -Qtdq)'
 
+# Update everything and cleanup
+alias update='mirrorx && paru && paru -Sc && cleanup'
 #get the error messages from journalctl
 alias jctl="journalctl -p 3 -xb"
 

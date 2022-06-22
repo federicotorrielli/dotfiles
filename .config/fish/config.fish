@@ -81,10 +81,6 @@ alias merge="xrdb -merge ~/.Xresources"
 # pacman or pm
 alias pacman='sudo pacman --color auto'
 
-# paru as aur helper - updates everything
-alias pksyua="paru"
-alias upall="paru"
-
 #ps
 alias psa="ps auxf"
 alias psgrep="ps aux | grep -v grep | grep -i -e VSZ -e"
@@ -212,7 +208,7 @@ alias cmatrix="cmatrix -a"
 alias ssn="sudo shutdown now"
 alias sr="sudo reboot"
 
-#rsync instead of cp
+#human rsync as ncp
 alias ncp="rsync -vazP"
 
 #add python3 pip path here
@@ -224,4 +220,6 @@ starship init fish | source
 zoxide init fish | source
 alias cd=z
 
-cbonsai -p
+if status is-interactive
+  cbonsai -p
+end

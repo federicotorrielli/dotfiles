@@ -11,7 +11,6 @@ My dotfile organization repository! Here you can find all the wonders of my magi
 - Status bar: Polybar
 - Notifications: Dunst
 - Terminal: [Siduck's st](https://github.com/siduck/st) (with the libxft-bgra package fix)
-- Text Editor: LunarVim
 - Shell: 🐟
 - File Manager: Nautilus or ranger
 - Icon Theme: Flatery-dark
